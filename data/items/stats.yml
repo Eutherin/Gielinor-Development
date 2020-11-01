@@ -1,0 +1,5261 @@
+items:
+  template: 
+    stats:
+      attack_bonus:
+        Stab_attack: 0       
+        Slash_attack: 0
+        Crush_attack: 0
+        Magic_attack: 0
+        Ranged_attack: 0
+      defence_bonus:
+        Stab_defence: 0   
+        Slash_defence: 0
+        Crush_defence: 0
+        Magic_defence: 0
+        Ranged_defence: 0
+      other_bonus:
+        Melee_strength: 0   
+        Ranged_strength: 0
+        Magic_damage: 0
+        Prayer: 0
+      special_bonuses:
+        Special_accuracy: 0   
+        Special_damage_1: 0
+        Special_damage_2: 0
+        Special_defence_roll: 0
+        Spell_max_hit: 0
+      Attack_speed: 0
+      Combat_options: 0
+  None: 
+    stats:
+      Attack_speed: 5
+      Combat_options: 3
+  3rd_age_longsword: 
+    stats:
+      attack_bonus:
+        Stab_attack: 60   
+        Slash_attack: 72
+        Crush_attack: -2
+      defence_bonus:
+        Stab_defence: 0   
+        Slash_defence: 3
+        Crush_defence: 2
+      other_bonus:
+        Melee_strength: 75
+      Attack_speed: 5
+      Combat_options: 6
+  Abyssal_bludgeon: 
+    stats:
+      attack_bonus:
+        Crush_attack: 102
+      other_bonus:
+        Melee_strength: 85
+      special_bonuses:
+        Special_accuracy: 0   
+        Special_damage_1: 0.005
+        Special_defence_roll: Crush
+      Attack_speed: 6
+      Combat_options: 14
+  Abyssal_dagger: 
+    stats:
+      attack_bonus:
+        Stab_attack: 75
+        Slash_attack: 40
+        Crush_attack: -4
+      defence_bonus:
+        Magic_defence: 1
+      other_bonus:
+        Melee_strength: 75
+      special_bonuses:
+        Special_accuracy: 0.25
+        Special_damage_1: -0.15
+        Special_defence_roll: Slash
+      Attack_speed: 6
+      Combat_options: 4
+  Abyssal_tentacle: 
+    stats:
+      attack_bonus:
+        Slash_attack: 90
+      other_bonus:
+        Melee_strength: 86
+      special_bonuses:
+        Special_accuracy: 0.25
+        Special_damage_1: 0
+        Special_defence_roll: Slash
+      Attack_speed: 6
+      Combat_options: 13
+  Abyssal_whip: 
+    stats:
+      attack_bonus:
+        Slash_attack: 82
+      other_bonus:
+        Melee_strength: 82
+      special_bonuses:
+        Special_accuracy: 0.25
+        Special_damage_1: 0
+        Special_defence_roll: Slash
+      Attack_speed: 6
+      Combat_options: 13
+  Adamant_pickaxe: 
+    stats:
+      attack_bonus:
+        Stab_attack: 17
+        Slash_attack: -2
+        Crush_attack: 15
+      other_bonus:
+        Melee_strength: 19
+      Attack_speed: 5
+      Combat_options: 16
+  Ancient_mace: 
+    stats:
+      attack_bonus:
+        Stab_attack: 10   
+        Slash_attack: -2
+        Crush_attack: 16
+      other_bonus:
+        Melee_strength: 14
+        Prayer: 3
+      special_bonuses:
+        Special_defence_roll: Crush
+      Attack_speed: 5
+      Combat_options: 7
+  Arclight: 
+    stats:
+      attack_bonus:
+        Stab_attack: 10   
+        Slash_attack: 38
+        Crush_attack: -2
+      defence_bonus:
+        Slash_defence: 3
+        Crush_defence: 2
+        Magic_defence: 2
+      other_bonus:
+        Melee_strength: 8
+      special_bonuses:
+        Special_defence_roll: Stab
+      Attack_speed: 6
+      Combat_options: 6
+  Armadyl_godsword: 
+    stats:
+      attack_bonus:
+        Slash_attack: 132
+        Crush_attack: 80
+      other_bonus:
+        Melee_strength: 132
+        Prayer: 8
+      special_bonuses:
+        Special_accuracy: 1
+        Special_damage_1: 0.1
+        Special_damage_2: 0.25
+        Special_defence_roll: Slash
+      Attack_speed: 4
+      Combat_options: 10
+  Bandos_godsword: 
+    stats:
+      attack_bonus:
+        Slash_attack: 132
+        Crush_attack: 80
+      other_bonus:
+        Melee_strength: 132
+        Prayer: 8
+      special_bonuses:
+        Special_accuracy: 1
+        Special_damage_1: 0.1
+        Special_damage_2: 0.1
+        Special_defence_roll: Slash
+      Attack_speed: 4
+      Combat_options: 10
+  Barrelchest_anchor: 
+    stats:
+      attack_bonus:
+        Stab_attack: -2
+        Slash_attack: 10
+        Crush_attack: 92
+      defence_bonus:
+        Crush_defence: 20
+      other_bonus:
+        Melee_strength: 100   
+      special_bonuses:
+        Special_accuracy: 1
+        Special_damage_1: 0.1
+        Special_defence_roll: Crush
+      Attack_speed: 4
+      Combat_options: 7
+  Bone_dagger: 
+    stats:
+      attack_bonus:
+        Stab_attack: 5
+        Slash_attack: 3
+        Crush_attack: -4
+        Magic_attack: 1
+      defence_bonus:
+        Magic_defence: 1
+      other_bonus:
+        Melee_strength: 4
+      Attack_speed: 6
+      Combat_options: 4
+  Brine_sabre: 
+    stats:
+      attack_bonus:
+        Stab_attack: 7
+        Slash_attack: 47
+        Crush_attack: -2
+      other_bonus:
+        Melee_strength: 46
+      Attack_speed: 6
+      Combat_options: 5
+  Crystal_halberd: 
+    stats:
+      attack_bonus:
+        Stab_attack: 85
+        Slash_attack: 110
+        Magic_attack: -4
+      defence_bonus:
+        Stab_defence: -1
+        Slash_defence: 4
+        Crush_defence: 5
+      other_bonus:
+        Melee_strength: 118
+      special_bonuses:
+        Special_damage_1: 0.1
+        Special_defence_roll: Slash
+      Attack_speed: 3
+      Combat_options: 11
+  Darklight: 
+    stats:
+      attack_bonus:
+        Stab_attack: 10   
+        Slash_attack: 16
+        Crush_attack: -2
+      defence_bonus:
+        Slash_defence: 3
+        Crush_defence: 2
+        Magic_defence: 2
+      other_bonus:
+        Melee_strength: 13
+      special_bonuses:
+        Special_defence_roll: Stab
+      Attack_speed: 5
+      Combat_options: 6
+  Dharoks_greataxe: 
+    stats:
+      attack_bonus:
+        Slash_attack: 103
+        Crush_attack: 95
+        Magic_attack: -4
+      defence_bonus:
+        Ranged_defence: -1
+      other_bonus:
+        Melee_strength: 105
+      Attack_speed: 3
+      Combat_options: 8
+  Dinhs_Bulwark: 
+    stats:
+      attack_bonus:
+        Stab_attack: 0   
+        Slash_attack: 0
+        Crush_attack: 110
+        Magic_attack: 0
+        Ranged_attack: 0
+      defence_bonus:
+        Stab_defence: 141
+        Slash_defence: 145
+        Crush_defence: 145
+        Magic_defence: 18
+        Ranged_defence: 148
+      other_bonus:
+        Melee_strength: 38
+      special_bonuses:
+        Special_accuracy: 0.2
+        Special_defence_roll: Crush
+      Attack_speed: 3
+      Combat_options: 21
+  Dragon_2h_sword: 
+    stats:
+      attack_bonus:
+        Stab_attack: -4
+        Slash_attack: 92
+        Crush_attack: 80
+        Magic_attack: -4
+      defence_bonus:
+        Ranged_defence: -1
+      other_bonus:
+        Melee_strength: 93
+      special_bonuses:
+        Special_defence_roll: Slash
+      Attack_speed: 3
+      Combat_options: 10
+  Dragon_battleaxe: 
+    stats:
+      attack_bonus:
+        Stab_attack: -2
+        Slash_attack: 70
+        Crush_attack: 65
+      defence_bonus:
+        Ranged_defence: -1
+      other_bonus:
+        Melee_strength: 85
+      special_bonuses:
+        Special_defence_roll: Slash
+      Attack_speed: 4
+      Combat_options: 8
+  Dragon_claws: 
+    stats:
+      attack_bonus:
+        Stab_attack: 41
+        Slash_attack: 57
+      defence_bonus:
+        Stab_defence: 13
+        Slash_defence: 26
+        Crush_defence: 7
+      other_bonus:
+        Melee_strength: 56
+      special_bonuses:
+        Special_defence_roll: Slash
+      Attack_speed: 6
+      Combat_options: 6
+  Dragon_dagger: 
+    stats:
+      attack_bonus:
+        Stab_attack: 40   
+        Slash_attack: 25
+        Crush_attack: -4
+        Magic_attack: 1
+      other_bonus:
+        Melee_strength: 40   
+      special_bonuses:
+        Special_accuracy: 0.15
+        Special_damage_1: 0.15
+        Special_defence_roll: Slash
+      Attack_speed: 6
+      Combat_options: 4
+  Dragon_halberd: 
+    stats:
+      attack_bonus:
+        Stab_attack: 70   
+        Slash_attack: 95
+        Magic_attack: -4
+      defence_bonus:
+        Stab_defence: -1
+        Slash_defence: 4
+        Crush_defence: 5
+      other_bonus:
+        Melee_strength: 89
+      special_bonuses:
+        Special_damage_1: 0.1
+        Special_defence_roll: Slash
+      Attack_speed: 3
+      Combat_options: 11
+  Dragon_hasta: 
+    stats:
+      attack_bonus:
+        Stab_attack: 55
+        Slash_attack: 55
+        Crush_attack: 55
+        Magic_attack: 0
+        Ranged_attack: 0
+      defence_bonus:
+        Stab_defence: -15
+        Slash_defence: -15
+        Crush_defence: -12
+        Magic_defence: 0
+        Ranged_defence: -15
+      other_bonus:
+        Melee_strength: 60   
+      special_bonuses:
+        Special_accuracy: 1
+        Special_damage_1: 0.5
+        Special_defence_roll: Stab
+      Attack_speed: 6
+      Combat_options: 12
+  Dragon_hunter_lance: 
+    stats:
+      attack_bonus:
+        Stab_attack: 85
+        Slash_attack: 65
+        Crush_attack: 65
+        Magic_attack: 0
+        Ranged_attack: 0
+      defence_bonus:
+        Stab_defence: 0   
+        Slash_defence: 0
+        Crush_defence: 0
+        Magic_defence: 0
+        Ranged_defence: 0
+      other_bonus:
+        Melee_strength: 70   
+      Attack_speed: 6
+      Combat_options: 12
+  Dragon_longsword: 
+    stats:
+      attack_bonus:
+        Stab_attack: 58
+        Slash_attack: 69
+        Crush_attack: -2
+      defence_bonus:
+        Slash_defence: 3
+        Crush_defence: 2
+      other_bonus:
+        Melee_strength: 71
+      special_bonuses:
+        Special_damage_1: 0.25
+        Special_defence_roll: Slash
+      Attack_speed: 5
+      Combat_options: 6
+  Dragon_mace: 
+    stats:
+      attack_bonus:
+        Stab_attack: 40   
+        Slash_attack: -2
+        Crush_attack: 60
+      other_bonus:
+        Melee_strength: 55
+        Prayer: 5
+      special_bonuses:
+        Special_accuracy: 0.25
+        Special_damage_1: 0.5
+        Special_defence_roll: Crush
+      Attack_speed: 5
+      Combat_options: 7
+  Dragon_pickaxe: 
+    stats:
+      attack_bonus:
+        Stab_attack: 38
+        Slash_attack: -2
+        Crush_attack: 32
+      defence_bonus:
+        Slash_defence: 1
+      other_bonus:
+        Melee_strength: 42
+      Attack_speed: 5
+      Combat_options: 16
+  Dragon_scimitar: 
+    stats:
+      attack_bonus:
+        Stab_attack: 8
+        Slash_attack: 67
+        Crush_attack: -2
+      defence_bonus:
+        Slash_defence: 1
+      other_bonus:
+        Melee_strength: 66
+      special_bonuses:
+        Special_accuracy: 0.25
+        Special_defence_roll: Slash
+      Attack_speed: 6
+      Combat_options: 6
+  Dragon_spear: 
+    stats:
+      attack_bonus:
+        Stab_attack: 55
+        Slash_attack: 55
+        Crush_attack: 55
+      defence_bonus:
+        Stab_defence: 5
+        Slash_defence: 5
+        Crush_defence: 5
+        Magic_defence: 5
+        Ranged_defence: 5
+      other_bonus:
+        Melee_strength: 60   
+      Attack_speed: 5
+      Combat_options: 12
+  Dragon_sword: 
+    stats:
+      attack_bonus:
+        Stab_attack: 65
+        Slash_attack: 55
+        Crush_attack: -2
+      defence_bonus:
+        Slash_defence: 2
+        Crush_defence: 1
+      other_bonus:
+        Melee_strength: 63
+      special_bonuses:
+        Special_accuracy: 0.25
+        Special_damage_1: 0.25
+        Special_defence_roll: Stab
+      Attack_speed: 6
+      Combat_options: 5
+  Dragon_warhammer: 
+    stats:
+      attack_bonus:
+        Stab_attack: -4
+        Slash_attack: -4
+        Crush_attack: 95
+        Magic_attack: -4
+        Ranged_attack: 0
+      other_bonus:
+        Melee_strength: 85
+      special_bonuses:
+        Special_damage_1: 0.5
+        Special_defence_roll: Crush
+      Attack_speed: 4
+      Combat_options: 9
+  Elder_maul: 
+    stats:
+      attack_bonus:
+        Crush_attack: 135
+      other_bonus:
+        Melee_strength: 147
+      Attack_speed: 4
+      Combat_options: 9
+  Event_rpg: 
+    stats:
+      Attack_speed: 7
+      Combat_options: 3
+  Fixed_device: 
+    stats:
+      Attack_speed: 6
+      Combat_options: 14
+  Gadderhammer: 
+    stats:
+      attack_bonus:
+        Stab_attack: -4
+        Slash_attack: -4
+        Crush_attack: 35
+      other_bonus:
+        Melee_strength: 35
+      special_bonuses:
+        Special_defence_roll: Crush
+      Attack_speed: 5
+      Combat_options: 9
+  Ghrazi_rapier: 
+    stats:
+      attack_bonus:
+        Stab_attack: 94
+        Slash_attack: 55
+      defence_bonus:
+        Stab_defence: 0   
+        Slash_defence: 0
+        Crush_defence: 0
+        Magic_defence: 0
+        Ranged_defence: 0
+      other_bonus:
+        Melee_strength: 89
+      Attack_speed: 6
+      Combat_options: 5
+  Granite_hammer: 
+    stats:
+      attack_bonus:
+        Stab_attack: 0   
+        Slash_attack: 0
+        Crush_attack: 57
+        Magic_attack: -3
+        Ranged_attack: -1
+      other_bonus:
+        Melee_strength: 56
+      special_bonuses:
+        Special_accuracy: 0.5
+        Special_defence_roll: Crush
+      Attack_speed: 6
+      Combat_options: 9
+  Granite_longsword: 
+    stats:
+      attack_bonus:
+        Stab_attack: 56
+        Slash_attack: 65
+        Crush_attack: -2
+      defence_bonus:
+        Slash_defence: 3
+        Crush_defence: 2
+      other_bonus:
+        Melee_strength: 62
+      Attack_speed: 5
+      Combat_options: 6
+  Granite_maul: 
+    stats:
+      attack_bonus:
+        Crush_attack: 81
+      other_bonus:
+        Melee_strength: 79
+      special_bonuses:
+        Special_defence_roll: Crush
+      Attack_speed: 3
+      Combat_options: 9
+  Guthans_warspear: 
+    stats:
+      attack_bonus:
+        Stab_attack: 75
+        Slash_attack: 75
+        Crush_attack: 75
+      defence_bonus:
+        Stab_defence: 7
+        Slash_defence: 7
+        Crush_defence: 7
+      other_bonus:
+        Melee_strength: 75
+      Attack_speed: 5
+      Combat_options: 12
+  Hill_giant_club: 
+    stats:
+      attack_bonus:
+        Stab_attack: -4
+        Slash_attack: 50
+        Crush_attack: 65
+        Magic_attack: -4
+      defence_bonus:
+        Stab_defence: 0   
+        Slash_defence: 0
+        Crush_defence: 0
+        Magic_defence: 0
+        Ranged_defence: -1
+      other_bonus:
+        Melee_strength: 70   
+      Attack_speed: 3
+      Combat_options: 9
+  Keris: 
+    stats:
+      attack_bonus:
+        Stab_attack: 40   
+        Slash_attack: 20
+        Crush_attack: -10
+        Magic_attack: 2
+      defence_bonus:
+        Magic_defence: 2
+      other_bonus:
+        Melee_strength: 30   
+        Prayer: 2
+      special_bonuses:
+        Special_defence_roll: Stab
+      Attack_speed: 6
+      Combat_options: 4
+  Leaf-bladed_spear: 
+    stats:
+      attack_bonus:
+        Stab_attack: 47
+        Slash_attack: 42
+        Crush_attack: 36
+      defence_bonus:
+        Stab_defence: 1
+        Slash_defence: 1
+      other_bonus:
+        Melee_strength: 50   
+      Attack_speed: 5
+      Combat_options: 12
+  Leaf-bladed_sword: 
+    stats:
+      attack_bonus:
+        Stab_attack: 67
+        Slash_attack: 62
+      other_bonus:
+        Melee_strength: 50   
+      Attack_speed: 6
+      Combat_options: 5
+  Leaf-bladed_battleaxe: 
+    stats:
+      attack_bonus:
+        Stab_attack: -2
+        Slash_attack: 72
+        Crush_attack: 72
+      defence_bonus:
+        Ranged_defence: -1
+      other_bonus:
+        Melee_strength: 92
+      Attack_speed: 5
+      Combat_options: 8
+  Maple_blackjack: 
+    stats:
+      other_bonus:
+        Melee_strength: 20   
+      Attack_speed: 6
+      Combat_options: 9
+  Maple_blackjack_(o): 
+    stats:
+      attack_bonus:
+        Crush_attack: 24
+      other_bonus:
+        Melee_strength: 20   
+      Attack_speed: 6
+      Combat_options: 9
+  Maple_blackjack_(d): 
+    stats:
+      defence_bonus:
+        Crush_defence: 24
+      other_bonus:
+        Melee_strength: 20   
+      Attack_speed: 6
+      Combat_options: 9
+  Obsidian_dagger: 
+    stats:
+      attack_bonus:
+        Stab_attack: 16
+        Slash_attack: 48
+      other_bonus:
+        Melee_strength: 39
+      Attack_speed: 6
+      Combat_options: 4
+  Obsidian_mace: 
+    stats:
+      attack_bonus:
+        Stab_attack: -4
+        Slash_attack: -4
+        Crush_attack: 62
+      other_bonus:
+        Melee_strength: 56
+      Attack_speed: 5
+      Combat_options: 9
+  Obsidian_maul: 
+    stats:
+      attack_bonus:
+        Crush_attack: 80
+        Magic_attack: -4
+      other_bonus:
+        Melee_strength: 85
+      Attack_speed: 3
+      Combat_options: 9
+  Obsidian_sword: 
+    stats:
+      attack_bonus:
+        Stab_attack: 47
+        Slash_attack: 38
+        Crush_attack: -2
+      defence_bonus:
+        Stab_defence: 2
+        Slash_defence: 3
+      other_bonus:
+        Melee_strength: 49
+      Attack_speed: 6
+      Combat_options: 5
+  Rune_2h_sword: 
+    stats:
+      attack_bonus:
+        Slash_attack: 69
+        Crush_attack: 50
+        Magic_attack: -4
+      defence_bonus:
+        Ranged_defence: -1
+      other_bonus:
+        Melee_strength: 70   
+      Attack_speed: 3
+      Combat_options: 10
+  Rune_battleaxe: 
+    stats:
+      attack_bonus:
+        Stab_attack: -2
+        Slash_attack: 48
+        Crush_attack: 43
+      defence_bonus:
+        Ranged_defence: -1
+      other_bonus:
+        Melee_strength: 64
+      Attack_speed: 4
+      Combat_options: 8
+  Rune_claws: 
+    stats:
+      attack_bonus:
+        Stab_attack: 26
+        Slash_attack: 38
+        Crush_attack: -4
+      defence_bonus:
+        Stab_defence: 10   
+        Slash_defence: 19
+        Crush_defence: 5
+      other_bonus:
+        Melee_strength: 39
+      special_bonuses:
+        Special_accuracy: 0.15
+        Special_damage_1: 0.15
+        Special_defence_roll: Slash
+      Attack_speed: 6
+      Combat_options: 6
+  Rune_dagger: 
+    stats:
+      attack_bonus:
+        Stab_attack: 25
+        Slash_attack: 12
+        Crush_attack: -4
+        Magic_attack: 1
+      defence_bonus:
+        Magic_defence: 1
+      other_bonus:
+        Melee_strength: 24
+      Attack_speed: 6
+      Combat_options: 4
+  Rune_halberd: 
+    stats:
+      attack_bonus:
+        Stab_attack: 48
+        Slash_attack: 67
+        Crush_attack: 0
+        Magic_attack: -4
+        Ranged_attack: 0
+      defence_bonus:
+        Stab_defence: -1
+        Slash_defence: 4
+        Crush_defence: 5
+      other_bonus:
+        Melee_strength: 68
+      Attack_speed: 3
+      Combat_options: 11
+  Rune_hasta: 
+    stats:
+      attack_bonus:
+        Stab_attack: 36
+        Slash_attack: 36
+        Crush_attack: 36
+      defence_bonus:
+        Stab_defence: -10   
+        Slash_defence: -10
+        Crush_defence: -9
+        Ranged_defence: -10
+      other_bonus:
+        Melee_strength: 42
+      Attack_speed: 6
+      Combat_options: 12
+  Rune_longsword: 
+    stats:
+      attack_bonus:
+        Stab_attack: 38
+        Slash_attack: 47
+        Crush_attack: -2
+      defence_bonus:
+        Slash_defence: 3
+        Crush_defence: 2
+      other_bonus:
+        Melee_strength: 49
+      Attack_speed: 5
+      Combat_options: 6
+  Rune_mace: 
+    stats:
+      attack_bonus:
+        Stab_attack: 20   
+        Slash_attack: -2
+        Crush_attack: 39
+      other_bonus:
+        Melee_strength: 36
+        Prayer: 4
+      Attack_speed: 5
+      Combat_options: 7
+  Rune_scimitar: 
+    stats:
+      attack_bonus:
+        Stab_attack: 7
+        Slash_attack: 45
+        Crush_attack: -2
+      defence_bonus:
+        Slash_defence: 1
+      other_bonus:
+        Melee_strength: 44
+      Attack_speed: 6
+      Combat_options: 6
+  Rune_spear: 
+    stats:
+      attack_bonus:
+        Stab_attack: 36
+        Slash_attack: 36
+        Crush_attack: 36
+      defence_bonus:
+        Stab_defence: 1
+        Slash_defence: 1
+      other_bonus:
+        Melee_strength: 42
+      Attack_speed: 5
+      Combat_options: 12
+  Rune_sword: 
+    stats:
+      attack_bonus:
+        Stab_attack: 38
+        Slash_attack: 26
+        Crush_attack: -2
+      defence_bonus:
+        Slash_defence: 2
+        Crush_defence: 1
+      other_bonus:
+        Melee_strength: 39
+      Attack_speed: 6
+      Combat_options: 5
+  Rune_pickaxe: 
+    stats:
+      attack_bonus:
+        Stab_attack: 26
+        Slash_attack: -2
+        Crush_attack: 24
+      defence_bonus:
+        Slash_defence: 1
+      other_bonus:
+        Melee_strength: 29
+      Attack_speed: 5
+      Combat_options: 16
+  Rune_warhammer: 
+    stats:
+      attack_bonus:
+        Stab_attack: -4
+        Slash_attack: -4
+        Crush_attack: 53
+        Magic_attack: -4
+      other_bonus:
+        Melee_strength: 48
+      Attack_speed: 4
+      Combat_options: 9
+  Saradomins_blessed_sword: 
+    stats:
+      attack_bonus:
+        Slash_attack: 100
+        Crush_attack: 60
+      other_bonus:
+        Melee_strength: 88
+        Prayer: 2
+      special_bonuses:
+        Special_accuracy: 1
+        Special_damage_1: 0.25
+        Special_defence_roll: Magic
+      Attack_speed: 6
+      Combat_options: 10
+  Saradomin_godsword: 
+    stats:
+      attack_bonus:
+        Slash_attack: 132
+        Crush_attack: 80
+      other_bonus:
+        Melee_strength: 132
+        Prayer: 8
+      special_bonuses:
+        Special_accuracy: 1
+        Special_damage_1: 0.1
+        Special_defence_roll: Slash
+      Attack_speed: 4
+      Combat_options: 10
+  Saradomin_sword: 
+    stats:
+      attack_bonus:
+        Slash_attack: 82
+        Crush_attack: 60
+      other_bonus:
+        Melee_strength: 82
+        Prayer: 2
+      special_bonuses:
+        Special_accuracy: 1
+        Special_damage_1: 0.1
+        Special_defence_roll: Magic
+      Attack_speed: 6
+      Combat_options: 10
+  Scythe_of_Vitur_(uncharged): 
+    stats:
+      attack_bonus:
+        Stab_attack: 50   
+        Slash_attack: 75
+        Crush_attack: 10
+        Magic_attack: -6
+      defence_bonus:
+        Stab_defence: -2
+        Slash_defence: 6
+        Crush_defence: 0
+        Magic_defence: 0
+        Ranged_defence: 0
+      other_bonus:
+        Melee_strength: 50   
+      Attack_speed: 5
+      Combat_options: 8
+  Scythe_of_Vitur: 
+    stats:
+      attack_bonus:
+        Stab_attack: 70   
+        Slash_attack: 110
+        Crush_attack: 30
+        Magic_attack: -6
+      defence_bonus:
+        Stab_defence: -2
+        Slash_defence: 8
+        Crush_defence: 10
+        Magic_defence: 0
+        Ranged_defence: 0
+      other_bonus:
+        Melee_strength: 75
+      Attack_speed: 5
+      Combat_options: 8
+  Slayers_staff: 
+    stats:
+      attack_bonus:
+        Stab_attack: 7
+        Slash_attack: -1
+        Crush_attack: 25
+        Magic_attack: 12
+      defence_bonus:
+        Stab_defence: 2
+        Slash_defence: 3
+        Crush_defence: 1
+        Magic_defence: 10
+      other_bonus:
+        Melee_strength: 35
+      Attack_speed: 6
+      Combat_options: 15
+  Staff_of_light: 
+    stats:
+      attack_bonus:
+        Stab_attack: 55
+        Slash_attack: 70
+        Magic_attack: 17
+      defence_bonus:
+        Slash_defence: 3
+        Crush_defence: 3
+        Magic_defence: 17
+      other_bonus:
+        Melee_strength: 72
+        Magic_damage: 0.15
+      Attack_speed: 6
+      Combat_options: 19
+  Enchanted_slayers_staff: 
+    stats:
+      attack_bonus:
+        Stab_attack: 7
+        Slash_attack: -1
+        Crush_attack: 25
+        Magic_attack: 12
+      defence_bonus:
+        Stab_defence: 2
+        Slash_defence: 3
+        Crush_defence: 1
+        Magic_defence: 10
+      other_bonus:
+        Melee_strength: 35
+      Attack_speed: 6
+      Combat_options: 15
+  Red_topaz_machete: 
+    stats:
+      attack_bonus:
+        Stab_attack: 0   
+        Slash_attack: 16
+        Crush_attack: -2
+      defence_bonus:
+        Slash_defence: 1
+        Crush_defence: 1
+        Ranged_defence: 1
+      other_bonus:
+        Melee_strength: 10   
+      Attack_speed: 6
+      Combat_options: 6
+  Staff_of_the_dead: 
+    stats:
+      attack_bonus:
+        Stab_attack: 55
+        Slash_attack: 70
+        Magic_attack: 17
+      defence_bonus:
+        Slash_defence: 3
+        Crush_defence: 3
+        Magic_defence: 17
+      other_bonus:
+        Melee_strength: 72
+        Magic_damage: 0.15
+      Attack_speed: 6
+      Combat_options: 19
+  Torags_hammers: 
+    stats:
+      attack_bonus:
+        Stab_attack: -4
+        Slash_attack: -4
+        Crush_attack: 85
+        Magic_attack: -4
+      other_bonus:
+        Melee_strength: 72
+      Attack_speed: 5
+      Combat_options: 9
+  Wolfbane: 
+    stats:
+      attack_bonus:
+        Stab_attack: 11
+        Slash_attack: 5
+        Crush_attack: -4
+        Magic_attack: 1
+      defence_bonus:
+        Magic_defence: 1
+      other_bonus:
+        Melee_strength: 10   
+        Prayer: 5
+      Attack_speed: 6
+      Combat_options: 4
+  Veracs_flail: 
+    stats:
+      attack_bonus:
+        Stab_attack: 68
+        Slash_attack: -2
+        Crush_attack: 82
+      other_bonus:
+        Melee_strength: 72
+        Prayer: 6
+      Attack_speed: 5
+      Combat_options: 7
+  Viggoras_chainmace: 
+    stats:
+      attack_bonus:
+        Stab_attack: 53
+        Slash_attack: -2
+        Crush_attack: 67
+      other_bonus:
+        Melee_strength: 66
+        Prayer: 2
+      Attack_speed: 6
+      Combat_options: 7
+  Zamorakian_spear: 
+    stats:
+      attack_bonus:
+        Stab_attack: 85
+        Slash_attack: 65
+        Crush_attack: 65
+      defence_bonus:
+        Stab_defence: 13
+        Slash_defence: 13
+        Crush_defence: 12
+        Ranged_defence: 13
+      other_bonus:
+        Melee_strength: 75
+        Prayer: 2
+      Attack_speed: 6
+      Combat_options: 12
+  Zamorakian_hasta: 
+    stats:
+      attack_bonus:
+        Stab_attack: 85
+        Slash_attack: 65
+        Crush_attack: 65
+      defence_bonus:
+        Stab_defence: 13
+        Slash_defence: 13
+        Crush_defence: 12
+        Ranged_defence: 13
+      other_bonus:
+        Melee_strength: 75
+        Prayer: 2
+      Attack_speed: 6
+      Combat_options: 12
+  Zamorak_godsword: 
+    stats:
+      attack_bonus:
+        Slash_attack: 132
+        Crush_attack: 80
+      other_bonus:
+        Melee_strength: 132
+        Prayer: 8
+      special_bonuses:
+        Special_accuracy: 1
+        Special_damage_1: 0.1
+        Special_defence_roll: Slash
+      Attack_speed: 4
+      Combat_options: 10
+  Adamant_scimitar: 
+    stats:
+      attack_bonus:
+        Stab_attack: 6
+        Slash_attack: 29
+        Crush_attack: -2
+      defence_bonus:
+        Slash_defence: 1
+      other_bonus:
+        Melee_strength: 28
+      Attack_speed: 6
+      Combat_options: 6
+  Mithril_scimitar: 
+    stats:
+      attack_bonus:
+        Stab_attack: 5
+        Slash_attack: 21
+        Crush_attack: -2
+      defence_bonus:
+        Slash_defence: 1
+      other_bonus:
+        Melee_strength: 20   
+      Attack_speed: 6
+      Combat_options: 6
+  Black_scimitar: 
+    stats:
+      attack_bonus:
+        Stab_attack: 4
+        Slash_attack: 19
+        Crush_attack: -2
+      defence_bonus:
+        Slash_defence: 1
+      other_bonus:
+        Melee_strength: 14
+      Attack_speed: 6
+      Combat_options: 6
+  White_scimitar: 
+    stats:
+      attack_bonus:
+        Stab_attack: 4
+        Slash_attack: 19
+        Crush_attack: -2
+      defence_bonus:
+        Slash_defence: 1
+      other_bonus:
+        Melee_strength: 14
+        Prayer: 1
+      Attack_speed: 6
+      Combat_options: 6
+  Steel_scimitar: 
+    stats:
+      attack_bonus:
+        Stab_attack: 3
+        Slash_attack: 15
+        Crush_attack: -2
+      defence_bonus:
+        Slash_defence: 1
+      other_bonus:
+        Melee_strength: 14
+      Attack_speed: 6
+      Combat_options: 6
+  Iron_scimitar: 
+    stats:
+      attack_bonus:
+        Stab_attack: 2
+        Slash_attack: 10
+        Crush_attack: -2
+      defence_bonus:
+        Slash_defence: 1
+      other_bonus:
+        Melee_strength: 9
+      Attack_speed: 6
+      Combat_options: 6
+  Bronze_scimitar: 
+    stats:
+      attack_bonus:
+        Stab_attack: 1
+        Slash_attack: 7
+        Crush_attack: -2
+      defence_bonus:
+        Slash_defence: 1
+      other_bonus:
+        Melee_strength: 6
+      Attack_speed: 6
+      Combat_options: 6
+  3rd_age_bow: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 80
+      Attack_speed: 6
+      Combat_options: 17
+  Armadyl_crossbow: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 100
+      other_bonus:
+        Prayer: 1
+      special_bonuses:
+        Special_accuracy: 1
+        Special_defence_roll: ranged
+      Attack_speed: 4
+      Combat_options: 17
+  Black_chinchompa: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 80
+      other_bonus:
+        Ranged_strength: 30
+      Attack_speed: 6
+      Combat_options: 17
+  Chinchompa: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 45
+      other_bonus:
+        Ranged_strength: 0
+      Attack_speed: 6
+      Combat_options: 17
+  Crystal_bow: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 100
+      other_bonus:
+        Ranged_strength: 70
+      Attack_speed: 5
+      Combat_options: 17
+  Craws_bow: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 75
+      other_bonus:
+        Ranged_strength: 60
+      Attack_speed: 6
+      Combat_options: 17
+  Dark_bow: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 95
+      special_bonuses:
+        Special_damage_1: 0.5
+        Special_defence_roll: ranged
+      Attack_speed: 2
+      Combat_options: 17
+  Dart: 
+    stats:
+      Attack_speed: 7
+      Combat_options: 17
+  Dorgeshuun_crossbow: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 42
+      Attack_speed: 5
+      Combat_options: 17
+  Dragon_crossbow: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 94
+      special_bonuses:
+        Special_damage_1: 0.2
+        Special_defence_roll: ranged
+      Attack_speed: 4
+      Combat_options: 17
+  Dragon_hunter_crossbow: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 95
+      Attack_speed: 4
+      Combat_options: 17
+  Dragon_thrownaxe: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 36
+      other_bonus:
+        Ranged_strength: 47
+      special_bonuses:
+        Special_accuracy: 0.25
+        Special_defence_roll: ranged
+      Attack_speed: 5
+      Combat_options: 17
+  Rune_crossbow: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 90
+      Attack_speed: 4
+      Combat_options: 17
+  Hunters_crossbow: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 55
+      Attack_speed: 6
+      Combat_options: 17
+  Adamant_crossbow: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 78
+      Attack_speed: 4
+      Combat_options: 17
+  Mithril_crossbow: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 66
+      Attack_speed: 4
+      Combat_options: 17
+  Steel_crossbow: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 54
+      Attack_speed: 4
+      Combat_options: 17
+  Iron_crossbow: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 42
+      Attack_speed: 4
+      Combat_options: 17
+  Bronze_crossbow: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 18
+      Attack_speed: 4
+      Combat_options: 17
+  Bluerite_crossbow: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 30
+      Attack_speed: 4
+      Combat_options: 17
+  Rune_thrownaxe: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 26
+      other_bonus:
+        Ranged_strength: 36
+      special_bonuses:
+        Special_defence_roll: ranged
+      Attack_speed: 5
+      Combat_options: 17
+  Heavy_ballista: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 125
+      other_bonus:
+        Ranged_strength: 15
+      special_bonuses:
+        Special_accuracy: 0.25
+        Special_damage_1: 0.25
+        Special_defence_roll: ranged
+      Attack_speed: 3
+      Combat_options: 17
+  Karils_crossbow: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 84
+      Attack_speed: 6
+      Combat_options: 17
+  Knife: 
+    stats:
+      Attack_speed: 7
+      Combat_options: 17
+  Light_ballista: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 110
+      special_bonuses:
+        Special_accuracy: 0.25
+        Special_damage_1: 0.25
+        Special_defence_roll: ranged
+      Attack_speed: 3
+      Combat_options: 17
+  Magic_compositebow: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 71
+      special_bonuses:
+        Special_defence_roll: ranged
+      Attack_speed: 5
+      Combat_options: 17
+  Magic_longbow: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 69
+      special_bonuses:
+        Special_defence_roll: ranged
+      Attack_speed: 4
+      Combat_options: 17
+  Magic_shortbow: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 69
+      special_bonuses:
+        Special_defence_roll: ranged
+      Attack_speed: 6
+      Combat_options: 17
+  Magic_shortbow_(i): 
+    stats:
+      attack_bonus:
+        Ranged_attack: 75
+      special_bonuses:
+        Special_defence_roll: ranged
+      Attack_speed: 6
+      Combat_options: 17
+  Yew_shortbow: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 47
+      Attack_speed: 6
+      Combat_options: 17
+  Maple_shortbow: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 29
+      Attack_speed: 6
+      Combat_options: 17
+  Willow_shortbow: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 20
+      Attack_speed: 6
+      Combat_options: 17
+  Oak_shortbow: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 14
+      Attack_speed: 6
+      Combat_options: 17
+  Shortbow: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 8
+      Attack_speed: 6
+      Combat_options: 17
+  Red_chinchompa: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 70
+      other_bonus:
+        Ranged_strength: 15
+      Attack_speed: 6
+      Combat_options: 17
+  Seercull: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 69
+      special_bonuses:
+        Special_defence_roll: ranged
+      Attack_speed: 5
+      Combat_options: 17
+  Toxic_blowpipe: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 60
+      other_bonus:
+        Ranged_strength: 40
+      special_bonuses:
+        Special_damage_1: 0.5
+        Special_defence_roll: ranged
+      Attack_speed: 7
+      Combat_options: 17
+  Twisted_bow: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 70
+      other_bonus:
+        Ranged_strength: 20
+        Prayer: 4
+      Attack_speed: 4
+      Combat_options: 17
+  Ahrims_staff: 
+    stats:
+      attack_bonus:
+        Stab_attack: 12
+        Slash_attack: -1
+        Crush_attack: 62
+        Magic_attack: 15
+      defence_bonus:
+        Stab_defence: 3
+        Slash_defence: 2
+        Crush_defence: 5
+        Magic_defence: 15
+      other_bonus:
+        Melee_strength: 68
+        Magic_damage: 0.05
+      Attack_speed: 5
+      Combat_options: 15
+  Ancient_staff: 
+    stats:
+      attack_bonus:
+        Stab_attack: 10   
+        Slash_attack: -1
+        Crush_attack: 40
+        Magic_attack: 15
+      defence_bonus:
+        Stab_defence: 2
+        Slash_defence: 3
+        Crush_defence: 1
+        Magic_defence: 15
+      other_bonus:
+        Melee_strength: 50   
+        Prayer: -1
+      Attack_speed: 5
+      Combat_options: 15
+  Black_salamander: 
+    stats:
+      attack_bonus:
+        Slash_attack: 59
+        Ranged_attack: 69
+      other_bonus:
+        Melee_strength: 71
+        Ranged_strength: 49
+      Attack_speed: 5
+      Combat_options: 18
+  God_staff: 
+    stats:
+      attack_bonus:
+        Stab_attack: -1
+        Slash_attack: -1
+        Crush_attack: 6
+        Magic_attack: 6
+      defence_bonus:
+        Stab_defence: 2
+        Slash_defence: 3
+        Crush_defence: 1
+        Magic_defence: 6
+      other_bonus:
+        Melee_strength: 2
+      Attack_speed: 5
+      Combat_options: 15
+  Iban_staff_(u): 
+    stats:
+      attack_bonus:
+        Stab_attack: 10   
+        Slash_attack: -1
+        Crush_attack: 40
+        Magic_attack: 10
+      defence_bonus:
+        Stab_defence: 2
+        Slash_defence: 3
+        Crush_defence: 1
+        Magic_defence: 10
+      other_bonus:
+        Melee_strength: 50   
+      Attack_speed: 5
+      Combat_options: 15
+  Kodai_wand: 
+    stats:
+      attack_bonus:
+        Magic_attack: 28
+      defence_bonus:
+        Slash_defence: 3
+        Crush_defence: 3
+        Magic_defence: 20
+      other_bonus:
+        Magic_damage: 0.15
+      Attack_speed: 5
+      Combat_options: 15
+  Master_wand: 
+    stats:
+      attack_bonus:
+        Magic_attack: 20
+      defence_bonus:
+        Magic_defence: 20
+      Attack_speed: 5
+      Combat_options: 15
+  Thammarons_sceptre: 
+    stats:
+      attack_bonus:
+        Magic_attack: 20
+      defence_bonus:
+        Magic_defence: 20
+      Attack_speed: 6
+      Combat_options: 15
+  Sanguinesti_staff: 
+    stats:
+      attack_bonus:
+        Magic_attack: 25
+        Ranged_attack: -4
+      defence_bonus:
+        Stab_defence: 2
+        Slash_defence: 3
+        Crush_defence: 1
+        Magic_defence: 15
+        Ranged_defence: 0
+      Attack_speed: 6
+      Combat_options: 20
+  Trident_of_the_seas: 
+    stats:
+      attack_bonus:
+        Magic_attack: 15
+      defence_bonus:
+        Stab_defence: 2
+        Slash_defence: 3
+        Crush_defence: 1
+        Magic_defence: 15
+      Attack_speed: 6
+      Combat_options: 20
+  Trident_of_the_swamp: 
+    stats:
+      attack_bonus:
+        Magic_attack: 25
+      defence_bonus:
+        Stab_defence: 2
+        Slash_defence: 3
+        Crush_defence: 1
+        Magic_defence: 15
+      Attack_speed: 6
+      Combat_options: 20
+  Toxic_staff_of_the_dead: 
+    stats:
+      attack_bonus:
+        Stab_attack: 55
+        Slash_attack: 70
+        Magic_attack: 25
+      defence_bonus:
+        Slash_defence: 3
+        Crush_defence: 3
+        Magic_defence: 17
+      other_bonus:
+        Melee_strength: 72
+        Magic_damage: 0.15
+      Attack_speed: 5
+      Combat_options: 19
+  3rd_age_wand: 
+    stats:
+      attack_bonus:
+        Magic_attack: 20
+      defence_bonus:
+        Magic_defence: 20
+      Attack_speed: 5
+      Combat_options: 15
+  Void_knight_mace: 
+    stats:
+      attack_bonus:
+        Stab_attack: 22
+        Crush_attack: 41
+        Magic_attack: 8
+      defence_bonus:
+        Stab_defence: 2
+        Slash_defence: 2
+        Crush_defence: 2
+        Magic_defence: 2
+        Ranged_defence: 2
+      other_bonus:
+        Melee_strength: 38
+        Prayer: 6
+      Attack_speed: 5
+      Combat_options: 15
+  Mystic_smoke_staff: 
+    stats:
+      attack_bonus:
+        Stab_attack: 10   
+        Slash_attack: -1
+        Crush_attack: 40
+        Magic_attack: 10
+      defence_bonus:
+        Stab_defence: 2
+        Slash_defence: 3
+        Crush_defence: 1
+        Magic_defence: 10
+      other_bonus:
+        Melee_strength: 50   
+      Attack_speed: 5
+      Combat_options: 15
+  Smoke_battlestaff: 
+    stats:
+      attack_bonus:
+        Stab_attack: 7
+        Slash_attack: -1
+        Crush_attack: 28
+        Magic_attack: 10
+      defence_bonus:
+        Stab_defence: 2
+        Slash_defence: 3
+        Crush_defence: 1
+        Magic_defence: 10
+      other_bonus:
+        Melee_strength: 35
+      Attack_speed: 5
+      Combat_options: 15
+  Mystic_lava_staff: 
+    stats:
+      attack_bonus:
+        Stab_attack: 10   
+        Slash_attack: -1
+        Crush_attack: 40
+        Magic_attack: 10
+      defence_bonus:
+        Stab_defence: 2
+        Slash_defence: 3
+        Crush_defence: 1
+        Magic_defence: 10
+      other_bonus:
+        Melee_strength: 50   
+      Attack_speed: 5
+      Combat_options: 15
+  Mystic_mud_staff: 
+    stats:
+      attack_bonus:
+        Stab_attack: 10   
+        Slash_attack: -1
+        Crush_attack: 40
+        Magic_attack: 10
+      defence_bonus:
+        Stab_defence: 2
+        Slash_defence: 3
+        Crush_defence: 1
+        Magic_defence: 10
+      other_bonus:
+        Melee_strength: 50   
+      Attack_speed: 5
+      Combat_options: 15
+  Mystic_dust_staff: 
+    stats:
+      attack_bonus:
+        Stab_attack: 10   
+        Slash_attack: -1
+        Crush_attack: 40
+        Magic_attack: 10
+      defence_bonus:
+        Stab_defence: 2
+        Slash_defence: 3
+        Crush_defence: 1
+        Magic_defence: 10
+      other_bonus:
+        Melee_strength: 50   
+      Attack_speed: 5
+      Combat_options: 15
+  Mystic_mist_staff: 
+    stats:
+      attack_bonus:
+        Stab_attack: 10   
+        Slash_attack: -1
+        Crush_attack: 40
+        Magic_attack: 10
+      defence_bonus:
+        Stab_defence: 2
+        Slash_defence: 3
+        Crush_defence: 1
+        Magic_defence: 10
+      other_bonus:
+        Melee_strength: 50   
+      Attack_speed: 5
+      Combat_options: 15
+  Mystic_steam_staff: 
+    stats:
+      attack_bonus:
+        Stab_attack: 10   
+        Slash_attack: -1
+        Crush_attack: 40
+        Magic_attack: 10
+      defence_bonus:
+        Stab_defence: 2
+        Slash_defence: 3
+        Crush_defence: 1
+        Magic_defence: 10
+      other_bonus:
+        Melee_strength: 50   
+      Attack_speed: 5
+      Combat_options: 15
+  Air_battlestaff: 
+    stats:
+      attack_bonus:
+        Stab_attack: 7
+        Slash_attack: -1
+        Crush_attack: 28
+        Magic_attack: 10
+      defence_bonus:
+        Stab_defence: 2
+        Slash_defence: 3
+        Crush_defence: 1
+        Magic_defence: 10
+      other_bonus:
+        Melee_strength: 35
+      Attack_speed: 5
+      Combat_options: 15
+  Water_battlestaff: 
+    stats:
+      attack_bonus:
+        Stab_attack: 7
+        Slash_attack: -1
+        Crush_attack: 28
+        Magic_attack: 10
+      defence_bonus:
+        Stab_defence: 2
+        Slash_defence: 3
+        Crush_defence: 1
+        Magic_defence: 10
+      other_bonus:
+        Melee_strength: 35
+      Attack_speed: 5
+      Combat_options: 15
+  Earth_battlestaff: 
+    stats:
+      attack_bonus:
+        Stab_attack: 7
+        Slash_attack: -1
+        Crush_attack: 28
+        Magic_attack: 10
+      defence_bonus:
+        Stab_defence: 2
+        Slash_defence: 3
+        Crush_defence: 1
+        Magic_defence: 10
+      other_bonus:
+        Melee_strength: 35
+      Attack_speed: 5
+      Combat_options: 15
+  Fire_battlestaff: 
+    stats:
+      attack_bonus:
+        Stab_attack: 7
+        Slash_attack: -1
+        Crush_attack: 28
+        Magic_attack: 10
+      defence_bonus:
+        Stab_defence: 2
+        Slash_defence: 3
+        Crush_defence: 1
+        Magic_defence: 10
+      other_bonus:
+        Melee_strength: 35
+      Attack_speed: 5
+      Combat_options: 15
+  Dharoks_helm: 
+    stats:
+      attack_bonus:
+        Magic_attack: -3
+        Ranged_attack: -1
+      defence_bonus:
+        Stab_defence: 45
+        Slash_defence: 48
+        Crush_defence: 44
+        Magic_defence: -1
+        Ranged_defence: 51
+  Dwarven_helmet: 
+    stats:
+      attack_bonus:
+        Crush_attack: 6
+        Magic_attack: -2
+        Ranged_attack: -2
+      defence_bonus:
+        Stab_defence: 27
+        Slash_defence: 28
+        Crush_defence: 31
+        Magic_defence: 5
+        Ranged_defence: 24
+  Fighter_hat: 
+    stats:
+      attack_bonus:
+        Stab_attack: 5
+        Slash_attack: 5
+        Crush_attack: 5
+        Magic_attack: -7
+        Ranged_attack: -7
+      defence_bonus:
+        Stab_defence: 27
+        Slash_defence: 29
+        Crush_defence: 26
+        Magic_defence: -3
+        Ranged_defence: 28
+  Guthans_helm: 
+    stats:
+      attack_bonus:
+        Magic_attack: -6
+        Ranged_attack: -2
+      defence_bonus:
+        Stab_defence: 55
+        Slash_defence: 58
+        Crush_defence: 54
+        Magic_defence: -1
+        Ranged_defence: 62
+  Neitiznot: 
+    stats:
+      defence_bonus:
+        Stab_defence: 31
+        Slash_defence: 29
+        Crush_defence: 34
+        Magic_defence: 3
+        Ranged_defence: 30
+      other_bonus:
+        Melee_strength: 3
+        Prayer: 3
+  Justiciar_faceguard: 
+    stats:
+      attack_bonus:
+        Magic_attack: -6
+        Ranged_attack: -2
+      defence_bonus:
+        Stab_defence: 60   
+        Slash_defence: 63
+        Crush_defence: 59
+        Magic_defence: -6
+        Ranged_defence: 67
+      other_bonus:
+        Prayer: 2
+  Dragon_full_helm: 
+    stats:
+      attack_bonus:
+        Magic_attack: -6
+        Ranged_attack: -2
+      defence_bonus:
+        Stab_defence: 45
+        Slash_defence: 48
+        Crush_defence: 41
+        Magic_defence: -1
+        Ranged_defence: 46
+  Dragon_med_helm: 
+    stats:
+      attack_bonus:
+        Magic_attack: -3
+        Ranged_attack: -1
+      defence_bonus:
+        Stab_defence: 33
+        Slash_defence: 35
+        Crush_defence: 32
+        Magic_defence: -1
+        Ranged_defence: 34
+  Rune_full_helm: 
+    stats:
+      attack_bonus:
+        Magic_attack: -6
+        Ranged_attack: -2
+      defence_bonus:
+        Stab_defence: 30   
+        Slash_defence: 32
+        Crush_defence: 27
+        Magic_defence: -1
+        Ranged_defence: 30
+  Serpentine: 
+    stats:
+      attack_bonus:
+        Magic_attack: -5
+        Ranged_attack: -5
+      defence_bonus:
+        Stab_defence: 52
+        Slash_defence: 55
+        Crush_defence: 58
+        Magic_defence: 0
+        Ranged_defence: 50
+      other_bonus:
+        Melee_strength: 5
+  Slayer_helmet_(i): 
+    stats:
+      attack_bonus:
+        Magic_attack: 3
+        Ranged_attack: 3
+      defence_bonus:
+        Stab_defence: 30   
+        Slash_defence: 32
+        Crush_defence: 27
+        Magic_defence: 10
+        Ranged_defence: 30
+  Obsidian_helm: 
+    stats:
+      defence_bonus:
+        Stab_defence: 25
+        Slash_defence: 23
+        Crush_defence: 26
+        Magic_defence: 0
+        Ranged_defence: 24
+      other_bonus:
+        Melee_strength: 3
+  Torags_helm: 
+    stats:
+      attack_bonus:
+        Magic_attack: -6
+        Ranged_attack: -2
+      defence_bonus:
+        Stab_defence: 55
+        Slash_defence: 58
+        Crush_defence: 54
+        Magic_defence: -1
+        Ranged_defence: 62
+  Veracs_helm: 
+    stats:
+      attack_bonus:
+        Magic_attack: -6
+        Ranged_attack: -2
+      defence_bonus:
+        Stab_defence: 55
+        Slash_defence: 58
+        Crush_defence: 54
+        Magic_defence: 0
+        Ranged_defence: 56
+      other_bonus:
+        Prayer: 3
+  Void_knight_helm: 
+    stats:
+      defence_bonus:
+        Stab_defence: 6
+        Slash_defence: 6
+        Crush_defence: 6
+        Magic_defence: 6
+        Ranged_defence: 6
+  3rd_age_helm: 
+    stats:
+      attack_bonus:
+        Stab_attack: 0   
+        Slash_attack: 0
+        Crush_attack: 0
+        Magic_attack: -5
+        Ranged_attack: -2
+      defence_bonus:
+        Stab_defence: 47
+        Slash_defence: 49
+        Crush_defence: 43
+        Magic_defence: -3
+        Ranged_defence: 48
+  Proselyte_sallet: 
+    stats:
+      attack_bonus:
+        Stab_attack: 0   
+        Slash_attack: 0
+        Crush_attack: 0
+        Magic_attack: -6
+        Ranged_attack: -2
+      defence_bonus:
+        Stab_defence: 19
+        Slash_defence: 21
+        Crush_defence: 16
+        Magic_defence: -1
+        Ranged_defence: 19
+      other_bonus:
+        Prayer: 4
+  Warrior_helm: 
+    stats:
+      attack_bonus:
+        Slash_attack: 5
+        Magic_attack: -5
+        Ranged_attack: -5
+      defence_bonus:
+        Stab_defence: 31
+        Slash_defence: 33
+        Crush_defence: 29
+        Magic_defence: 0
+        Ranged_defence: 30
+  Berserker_helm: 
+    stats:
+      attack_bonus:
+        Magic_attack: -5
+        Ranged_attack: -5
+      defence_bonus:
+        Stab_defence: 31
+        Slash_defence: 29
+        Crush_defence: 33
+        Magic_defence: 0
+        Ranged_defence: 30
+      other_bonus:
+        Melee_strength: 3
+  Armadyl_helmet: 
+    stats:
+      attack_bonus:
+        Stab_attack: -5
+        Slash_attack: -5
+        Crush_attack: -5
+        Magic_attack: -5
+        Ranged_attack: 10
+      defence_bonus:
+        Stab_defence: 6
+        Slash_defence: 6
+        Crush_defence: 10
+        Magic_defence: 10
+        Ranged_defence: 8
+      other_bonus:
+        Prayer: 1
+  Robin_hood_hat: 
+    stats:
+      attack_bonus:
+        Magic_attack: -10
+        Ranged_attack: 8
+      defence_bonus:
+        Stab_defence: 4
+        Slash_defence: 6
+        Crush_defence: 8
+        Magic_defence: 4
+        Ranged_defence: 4
+  Karils_coif: 
+    stats:
+      attack_bonus:
+        Magic_attack: -3
+        Ranged_attack: 7
+      defence_bonus:
+        Stab_defence: 6
+        Slash_defence: 9
+        Crush_defence: 12
+        Magic_defence: 6
+        Ranged_defence: 10
+  Blessed_dhide_coif: 
+    stats:
+      attack_bonus:
+        Magic_attack: -1
+        Ranged_attack: 7
+      defence_bonus:
+        Stab_defence: 4
+        Slash_defence: 7
+        Crush_defence: 10
+        Magic_defence: 4
+        Ranged_defence: 8
+      other_bonus:
+        Prayer: 1
+  3rd_age_range_coif: 
+    stats:
+      attack_bonus:
+        Stab_attack: 0   
+        Slash_attack: 0
+        Crush_attack: 0
+        Magic_attack: -2
+        Ranged_attack: 9
+      defence_bonus:
+        Stab_defence: 4
+        Slash_defence: 7
+        Crush_defence: 10
+        Magic_defence: 5
+        Ranged_defence: 8
+  Archer_helm: 
+    stats:
+      attack_bonus:
+        Stab_attack: -5
+        Slash_attack: -5
+        Crush_attack: -5
+        Magic_attack: -5
+        Ranged_attack: 6
+      defence_bonus:
+        Stab_defence: 6
+        Slash_defence: 8
+        Crush_defence: 10
+        Magic_defence: 6
+        Ranged_defence: 6
+  Snakeskin_bandana: 
+    stats:
+      attack_bonus:
+        Magic_attack: -5
+        Ranged_attack: 4
+      defence_bonus:
+        Stab_defence: 2
+        Slash_defence: 4
+        Crush_defence: 4
+        Magic_defence: 2
+        Ranged_defence: 2
+  Spined_helm: 
+    stats:
+      attack_bonus:
+        Stab_attack: -6
+        Slash_attack: -6
+        Crush_attack: -6
+        Magic_attack: -6
+        Ranged_attack: 6
+      defence_bonus:
+        Stab_defence: 6
+        Slash_defence: 6
+        Crush_defence: 6
+        Magic_defence: 6
+        Ranged_defence: 0
+  Coif: 
+    stats:
+      attack_bonus:
+        Magic_attack: -1
+        Ranged_attack: 2
+      defence_bonus:
+        Stab_defence: 4
+        Slash_defence: 6
+        Crush_defence: 8
+        Magic_defence: 4
+        Ranged_defence: 4
+  Cowl: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 1
+      defence_bonus:
+        Stab_defence: 2
+        Slash_defence: 3
+        Crush_defence: 4
+        Magic_defence: 2
+        Ranged_defence: 3
+  Ranger_hat: 
+    stats:
+      attack_bonus:
+        Stab_attack: -5
+        Slash_attack: -5
+        Crush_attack: -5
+        Magic_attack: -5
+        Ranged_attack: 6
+      defence_bonus:
+        Stab_defence: 7
+        Slash_defence: 10
+        Crush_defence: 11
+        Magic_defence: 5
+        Ranged_defence: 8
+  3rd_age_mage_hat: 
+    stats:
+      attack_bonus:
+        Magic_attack: 8
+      defence_bonus:
+        Magic_defence: 8
+  Ancestral_hood: 
+    stats:
+      attack_bonus:
+        Magic_attack: 8
+        Ranged_attack: -2
+      defence_bonus:
+        Stab_defence: 12
+        Slash_defence: 11
+        Crush_defence: 13
+        Magic_defence: 5
+        Ranged_defence: 0
+      other_bonus:
+        Magic_damage: 0.02
+  Ahrims_hood: 
+    stats:
+      attack_bonus:
+        Magic_attack: 6
+        Ranged_attack: -2
+      defence_bonus:
+        Stab_defence: 15
+        Slash_defence: 13
+        Crush_defence: 16
+        Magic_defence: 6
+  Elder_chaos_hood: 
+    stats:
+      attack_bonus:
+        Magic_attack: 5
+      defence_bonus:
+        Magic_defence: 4
+  Infinity_hat: 
+    stats:
+      attack_bonus:
+        Magic_attack: 6
+      defence_bonus:
+        Magic_defence: 6
+  Healer_hat: 
+    stats:
+      attack_bonus:
+        Stab_attack: -5
+        Slash_attack: -5
+        Crush_attack: -5
+        Magic_attack: 6
+        Ranged_attack: -5
+      defence_bonus:
+        Stab_defence: 6
+        Slash_defence: 8
+        Crush_defence: 10
+        Magic_defence: 7
+  Farseer_helm: 
+    stats:
+      attack_bonus:
+        Stab_attack: -5
+        Slash_attack: -5
+        Crush_attack: -5
+        Magic_attack: 6
+        Ranged_attack: -5
+      defence_bonus:
+        Stab_defence: 8
+        Slash_defence: 10
+        Crush_defence: 12
+        Magic_defence: 6
+  Skeletal_helm: 
+    stats:
+      attack_bonus:
+        Magic_attack: 2
+        Ranged_attack: -2
+      defence_bonus:
+        Stab_defence: 10   
+        Slash_defence: 9
+        Crush_defence: 11
+        Magic_defence: 3
+  Guthix_halo: 
+    stats:
+      defence_bonus:
+        Stab_defence: 11
+        Slash_defence: 12
+        Crush_defence: 10
+        Magic_defence: 11
+        Ranged_defence: -3
+      other_bonus:
+        Prayer: 3
+  Saradmon_halo: 
+    stats:
+      defence_bonus:
+        Stab_defence: 11
+        Slash_defence: 12
+        Crush_defence: 10
+        Magic_defence: 11
+        Ranged_defence: -3
+      other_bonus:
+        Prayer: 3
+  Zamorak_halo: 
+    stats:
+      defence_bonus:
+        Stab_defence: 11
+        Slash_defence: 12
+        Crush_defence: 10
+        Magic_defence: 11
+        Ranged_defence: -3
+      other_bonus:
+        Prayer: 3
+  God_mitre: 
+    stats:
+      attack_bonus:
+        Magic_attack: 4
+      defence_bonus:
+        Magic_defence: 4
+      other_bonus:
+        Prayer: 5
+  Infernal_cape: 
+    stats:
+      attack_bonus:
+        Stab_attack: 4
+        Slash_attack: 4
+        Crush_attack: 4
+        Magic_attack: 1
+        Ranged_attack: 1
+      defence_bonus:
+        Stab_defence: 12
+        Slash_defence: 12
+        Crush_defence: 12
+        Magic_defence: 12
+        Ranged_defence: 12
+      other_bonus:
+        Melee_strength: 8
+        Prayer: 2
+  Fire_cape: 
+    stats:
+      attack_bonus:
+        Stab_attack: 1
+        Slash_attack: 1
+        Crush_attack: 1
+        Magic_attack: 1
+        Ranged_attack: 1
+      defence_bonus:
+        Stab_defence: 11
+        Slash_defence: 11
+        Crush_defence: 11
+        Magic_defence: 11
+        Ranged_defence: 11
+      other_bonus:
+        Melee_strength: 4
+        Prayer: 2
+  Mythical_cape: 
+    stats:
+      attack_bonus:
+        Crush_attack: 6
+      defence_bonus:
+        Stab_defence: 8
+        Slash_defence: 8
+        Crush_defence: 8
+        Magic_defence: 8
+        Ranged_defence: 8
+      other_bonus:
+        Melee_strength: 1
+        Prayer: 1
+  Ardougne_4: 
+    stats:
+      attack_bonus:
+        Stab_attack: 6
+        Magic_attack: 6
+      defence_bonus:
+        Stab_defence: 6
+        Magic_defence: 6
+      other_bonus:
+        Prayer: 6
+  Ardougne_3: 
+    stats:
+      attack_bonus:
+        Stab_attack: 5
+        Magic_attack: 5
+      defence_bonus:
+        Stab_defence: 5
+        Magic_defence: 5
+      other_bonus:
+        Prayer: 5
+  Ardougne_2: 
+    stats:
+      attack_bonus:
+        Stab_attack: 4
+        Magic_attack: 4
+      defence_bonus:
+        Stab_defence: 4
+        Magic_defence: 4
+      other_bonus:
+        Prayer: 4
+  Ardougne_1: 
+    stats:
+      attack_bonus:
+        Stab_attack: 2
+        Magic_attack: 2
+      defence_bonus:
+        Stab_defence: 2
+        Magic_defence: 2
+      other_bonus:
+        Prayer: 2
+  Vestment_cloak: 
+    stats:
+      attack_bonus:
+        Magic_attack: 1
+      defence_bonus:
+        Stab_defence: 3
+        Slash_defence: 3
+        Crush_defence: 3
+        Magic_defence: 3
+        Ranged_defence: 3
+      other_bonus:
+        Prayer: 3
+  Max_cape: 
+    stats:
+      defence_bonus:
+        Stab_defence: 9
+        Slash_defence: 9
+        Crush_defence: 9
+        Magic_defence: 9
+        Ranged_defence: 9
+      other_bonus:
+        Prayer: 4
+  Skill_cape_(t): 
+    stats:
+      defence_bonus:
+        Stab_defence: 9
+        Slash_defence: 9
+        Crush_defence: 9
+        Magic_defence: 9
+        Ranged_defence: 9
+      other_bonus:
+        Prayer: 4
+  Obsidian_cape: 
+    stats:
+      defence_bonus:
+        Stab_defence: 9
+        Slash_defence: 9
+        Crush_defence: 9
+        Magic_defence: 9
+        Ranged_defence: 9
+  3rd_age_cloak: 
+    stats:
+      defence_bonus:
+        Stab_defence: 9
+        Slash_defence: 9
+        Crush_defence: 9
+        Magic_defence: 9
+        Ranged_defence: 9
+      other_bonus:
+        Prayer: 5
+  Avas_attractor: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 2
+      defence_bonus:
+        Magic_defence: 2
+  Avas_accumulator: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 4
+      defence_bonus:
+        Slash_defence: 1
+        Magic_defence: 4
+  Avas_assembler: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 8
+      defence_bonus:
+        Stab_defence: 1
+        Slash_defence: 1
+        Crush_defence: 1
+        Magic_defence: 8
+        Ranged_defence: 2
+      other_bonus:
+        Ranged_strength: 2
+  Mage_arena_cape: 
+    stats:
+      attack_bonus:
+        Magic_attack: 10
+      defence_bonus:
+        Stab_defence: 1
+        Slash_defence: 1
+        Crush_defence: 2
+        Magic_defence: 10
+  God_cape_(i): 
+    stats:
+      attack_bonus:
+        Magic_attack: 15
+      defence_bonus:
+        Stab_defence: 3
+        Slash_defence: 3
+        Crush_defence: 3
+        Magic_defence: 15
+      other_bonus:
+        Magic_damage: 0.02
+  Guthix_cape: 
+    stats:
+      attack_bonus:
+        Magic_attack: 10
+      defence_bonus:
+        Stab_defence: 1
+        Slash_defence: 1
+        Crush_defence: 2
+        Magic_defence: 10
+  Saradomin_cape: 
+    stats:
+      attack_bonus:
+        Magic_attack: 10
+      defence_bonus:
+        Stab_defence: 1
+        Slash_defence: 1
+        Crush_defence: 2
+        Magic_defence: 10
+  Zamorak_cape: 
+    stats:
+      attack_bonus:
+        Magic_attack: 10
+      defence_bonus:
+        Stab_defence: 1
+        Slash_defence: 1
+        Crush_defence: 2
+        Magic_defence: 10
+  Regular_cape: 
+    stats:
+      defence_bonus:
+        Slash_defence: 1
+        Crush_defence: 1
+        Ranged_defence: 2
+  Amulet_of_fury: 
+    stats:
+      attack_bonus:
+        Stab_attack: 10   
+        Slash_attack: 10
+        Crush_attack: 10
+        Magic_attack: 10
+        Ranged_attack: 10
+      defence_bonus:
+        Stab_defence: 15
+        Slash_defence: 15
+        Crush_defence: 15
+        Magic_defence: 15
+        Ranged_defence: 15
+      other_bonus:
+        Melee_strength: 8
+        Prayer: 5
+  Amulet_of_torture: 
+    stats:
+      attack_bonus:
+        Stab_attack: 15
+        Slash_attack: 15
+        Crush_attack: 15
+      other_bonus:
+        Melee_strength: 10   
+        Prayer: 2
+  Necklace_of_anguish: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 15
+      other_bonus:
+        Ranged_strength: 5
+        Prayer: 2
+  Amulet_of_avarice: 
+    stats:
+      attack_bonus:
+        Stab_attack: 10   
+        Slash_attack: 10
+        Crush_attack: 10
+        Magic_attack: 10
+        Ranged_attack: 10
+      defence_bonus:
+        Stab_defence: 3
+        Slash_defence: 3
+        Crush_defence: 3
+        Magic_defence: 3
+        Ranged_defence: 3
+      other_bonus:
+        Melee_strength: 6
+        Prayer: 3
+  Amulet_of_strength: 
+    stats:
+      other_bonus:
+        Melee_strength: 10
+  Amulet_of_glory: 
+    stats:
+      attack_bonus:
+        Stab_attack: 10   
+        Slash_attack: 10
+        Crush_attack: 10
+        Magic_attack: 10
+        Ranged_attack: 10
+      defence_bonus:
+        Stab_defence: 3
+        Slash_defence: 3
+        Crush_defence: 3
+        Magic_defence: 3
+        Ranged_defence: 3
+      other_bonus:
+        Melee_strength: 6
+        Prayer: 3
+  Amulet_of_power: 
+    stats:
+      attack_bonus:
+        Stab_attack: 6
+        Slash_attack: 6
+        Crush_attack: 6
+        Magic_attack: 6
+        Ranged_attack: 6
+      defence_bonus:
+        Stab_defence: 6
+        Slash_defence: 6
+        Crush_defence: 6
+        Magic_defence: 6
+        Ranged_defence: 6
+      other_bonus:
+        Melee_strength: 6
+        Prayer: 1
+  Salve_amulet_(i): 
+    stats:
+      defence_bonus:
+        Stab_defence: 3
+        Slash_defence: 3
+        Crush_defence: 3
+      other_bonus:
+        Prayer: 3
+  Salve_amulet_(ei): 
+    stats:
+      defence_bonus:
+        Stab_defence: 3
+        Slash_defence: 3
+        Crush_defence: 3
+      other_bonus:
+        Prayer: 3
+  Berserker_necklace: 
+    stats:
+      attack_bonus:
+        Stab_attack: -10   
+        Slash_attack: -10
+        Crush_attack: -10
+      defence_bonus:
+        Stab_defence: -20   
+        Slash_defence: -20
+        Crush_defence: -20
+        Magic_defence: -20
+        Ranged_defence: -20
+      other_bonus:
+        Melee_strength: 7
+        Prayer: 3
+  Amulet_of_the_damned: 
+    stats:
+      attack_bonus:
+        Stab_attack: 10   
+        Slash_attack: 10
+        Crush_attack: 10
+        Magic_attack: 10
+        Ranged_attack: 10
+      defence_bonus:
+        Stab_defence: 3
+        Slash_defence: 3
+        Crush_defence: 3
+        Magic_defence: 3
+        Ranged_defence: 3
+      other_bonus:
+        Melee_strength: 6
+        Prayer: 3
+  Occult_necklace: 
+    stats:
+      attack_bonus:
+        Magic_attack: 12
+      other_bonus:
+        Magic_damage: 0.1
+        Prayer: 2
+  Amulet_of_accuracy: 
+    stats:
+      attack_bonus:
+        Stab_attack: 4
+        Slash_attack: 4
+        Crush_attack: 4
+        Magic_attack: 4
+        Ranged_attack: 4
+  Dragonbone_necklace: 
+    stats:
+      attack_bonus:
+        Stab_attack: 0   
+        Slash_attack: 0
+        Crush_attack: 0
+        Magic_attack: 0
+        Ranged_attack: 0
+      defence_bonus:
+        Stab_defence: 0   
+        Slash_defence: 0
+        Crush_defence: 0
+        Magic_defence: 0
+        Ranged_defence: 0
+      other_bonus:
+        Prayer: 12
+  Bonecrusher_necklace: 
+    stats:
+      attack_bonus:
+        Stab_attack: 0   
+        Slash_attack: 0
+        Crush_attack: 0
+        Magic_attack: 0
+        Ranged_attack: 0
+      defence_bonus:
+        Stab_defence: 0   
+        Slash_defence: 0
+        Crush_defence: 0
+        Magic_defence: 0
+        Ranged_defence: 0
+      other_bonus:
+        Prayer: 12
+  3rd_age_amulet: 
+    stats:
+      attack_bonus:
+        Magic_attack: 15
+      defence_bonus:
+        Magic_defence: 10
+  Bandos_chestplate: 
+    stats:
+      attack_bonus:
+        Magic_attack: -15
+        Ranged_attack: -10
+      defence_bonus:
+        Stab_defence: 98
+        Slash_defence: 93
+        Crush_defence: 105
+        Magic_defence: -6
+        Ranged_defence: 133
+      other_bonus:
+        Melee_strength: 4
+        Prayer: 1
+  Fighter_torso: 
+    stats:
+      attack_bonus:
+        Magic_attack: -40
+      defence_bonus:
+        Stab_defence: 62
+        Slash_defence: 85
+        Crush_defence: 62
+        Magic_defence: -10
+        Ranged_defence: 67
+      other_bonus:
+        Melee_strength: 4
+  Void_knight_top: 
+    stats:
+      defence_bonus:
+        Stab_defence: 45
+        Slash_defence: 45
+        Crush_defence: 45
+        Magic_defence: 45
+        Ranged_defence: 45
+  Elite_void_top: 
+    stats:
+      defence_bonus:
+        Stab_defence: 45
+        Slash_defence: 45
+        Crush_defence: 45
+        Magic_defence: 45
+        Ranged_defence: 45
+      other_bonus:
+        Prayer: 3
+  Veracs_brassard: 
+    stats:
+      attack_bonus:
+        Magic_attack: -6
+        Ranged_attack: -2
+      defence_bonus:
+        Stab_defence: 81
+        Slash_defence: 95
+        Crush_defence: 85
+        Ranged_defence: 85
+      other_bonus:
+        Prayer: 5
+  Dharoks_platebody: 
+    stats:
+      attack_bonus:
+        Magic_attack: -30
+        Ranged_attack: -10
+      defence_bonus:
+        Stab_defence: 122
+        Slash_defence: 120
+        Crush_defence: 107
+        Magic_defence: -6
+        Ranged_defence: 132
+  Guthans_platebody: 
+    stats:
+      attack_bonus:
+        Magic_attack: -30
+        Ranged_attack: -10
+      defence_bonus:
+        Stab_defence: 122
+        Slash_defence: 120
+        Crush_defence: 107
+        Magic_defence: -6
+        Ranged_defence: 132
+  Torags_platebody: 
+    stats:
+      attack_bonus:
+        Magic_attack: -30
+        Ranged_attack: -10
+      defence_bonus:
+        Stab_defence: 122
+        Slash_defence: 120
+        Crush_defence: 107
+        Magic_defence: -6
+        Ranged_defence: 132
+  Obsidian_platebody: 
+    stats:
+      defence_bonus:
+        Stab_defence: 55
+        Slash_defence: 78
+        Crush_defence: 56
+        Magic_defence: -15
+        Ranged_defence: 60
+      other_bonus:
+        Melee_strength: 3
+  Proselyte_hauberk: 
+    stats:
+      attack_bonus:
+        Magic_attack: -30
+        Ranged_attack: -10
+      defence_bonus:
+        Stab_defence: 65
+        Slash_defence: 63
+        Crush_defence: 55
+        Magic_defence: -6
+        Ranged_defence: -63
+      other_bonus:
+        Prayer: 8
+  Justiciar_chestguard: 
+    stats:
+      attack_bonus:
+        Magic_attack: -40
+        Ranged_attack: -20
+      defence_bonus:
+        Stab_defence: 132
+        Slash_defence: 130
+        Crush_defence: 117
+        Magic_defence: -16
+        Ranged_defence: 142
+      other_bonus:
+        Prayer: 4
+  Dragon_chainbody: 
+    stats:
+      attack_bonus:
+        Magic_attack: -15
+      defence_bonus:
+        Stab_defence: 81
+        Slash_defence: 93
+        Crush_defence: 98
+        Magic_defence: -3
+        Ranged_defence: 82
+  3rd_age_platebody: 
+    stats:
+      attack_bonus:
+        Magic_attack: -20
+        Ranged_attack: 0
+      defence_bonus:
+        Stab_defence: 96
+        Slash_defence: 108
+        Crush_defence: 113
+        Magic_defence: -4
+        Ranged_defence: 97
+  Rune_platebody: 
+    stats:
+      attack_bonus:
+        Magic_attack: -30
+        Ranged_attack: -10
+      defence_bonus:
+        Stab_defence: 82
+        Slash_defence: 80
+        Crush_defence: 72
+        Magic_defence: -6
+        Ranged_defence: 80
+  Dragon_platebody: 
+    stats:
+      attack_bonus:
+        Magic_attack: -30
+        Ranged_attack: -10
+      defence_bonus:
+        Stab_defence: 109
+        Slash_defence: 107
+        Crush_defence: 97
+        Magic_defence: -6
+        Ranged_defence: 106
+  Armadyl_chestplate: 
+    stats:
+      attack_bonus:
+        Stab_attack: -7
+        Slash_attack: -7
+        Crush_attack: -7
+        Magic_attack: -15
+        Ranged_attack: 33
+      defence_bonus:
+        Stab_defence: 56
+        Slash_defence: 48
+        Crush_defence: 61
+        Magic_defence: 70
+        Ranged_defence: 57
+      other_bonus:
+        Prayer: 1
+  Karils_leathertop: 
+    stats:
+      attack_bonus:
+        Magic_attack: -15
+        Ranged_attack: 30
+      defence_bonus:
+        Stab_defence: 47
+        Slash_defence: 52
+        Crush_defence: 50
+        Magic_defence: 65
+        Ranged_defence: 57
+  Blessed_dhide_body: 
+    stats:
+      attack_bonus:
+        Magic_attack: -15
+        Ranged_attack: 30
+      defence_bonus:
+        Stab_defence: 45
+        Slash_defence: 47
+        Crush_defence: 60
+        Magic_defence: 50
+        Ranged_defence: 55
+      other_bonus:
+        Prayer: 1
+  Black_dhide_body: 
+    stats:
+      attack_bonus:
+        Magic_attack: -15
+        Ranged_attack: 30
+      defence_bonus:
+        Stab_defence: 45
+        Slash_defence: 47
+        Crush_defence: 60
+        Magic_defence: 50
+        Ranged_defence: 55
+  Red_dhide_body: 
+    stats:
+      attack_bonus:
+        Magic_attack: -15
+        Ranged_attack: 25
+      defence_bonus:
+        Stab_defence: 50   
+        Slash_defence: 42
+        Crush_defence: 55
+        Magic_defence: 40
+        Ranged_defence: 50
+  Blue_dhide_body: 
+    stats:
+      attack_bonus:
+        Magic_attack: -15
+        Ranged_attack: 20
+      defence_bonus:
+        Stab_defence: 45
+        Slash_defence: 37
+        Crush_defence: 50
+        Magic_defence: 30
+        Ranged_defence: 45
+  Green_dhide_body: 
+    stats:
+      attack_bonus:
+        Magic_attack: -15
+        Ranged_attack: 15
+      defence_bonus:
+        Stab_defence: 40   
+        Slash_defence: 32
+        Crush_defence: 45
+        Magic_defence: 20
+        Ranged_defence: 40
+  Studded_body: 
+    stats:
+      attack_bonus:
+        Magic_attack: -4
+        Ranged_attack: 8
+      defence_bonus:
+        Stab_defence: 18
+        Slash_defence: 25
+        Crush_defence: 22
+        Magic_defence: 8
+        Ranged_defence: 25
+  Snakeskin_body: 
+    stats:
+      attack_bonus:
+        Magic_attack: -5
+        Ranged_attack: 12
+      defence_bonus:
+        Stab_defence: 25
+        Slash_defence: 28
+        Crush_defence: 32
+        Magic_defence: 15
+        Ranged_defence: 35
+  Rangers_tunic: 
+    stats:
+      attack_bonus:
+        Magic_attack: -15
+        Ranged_attack: 15
+      defence_bonus:
+        Stab_defence: 6
+        Slash_defence: 9
+        Crush_defence: 12
+        Magic_defence: 6
+        Ranged_defence: 6
+  3rd_age_range_top: 
+    stats:
+      attack_bonus:
+        Magic_attack: -15
+        Ranged_attack: 30
+      defence_bonus:
+        Stab_defence: 55
+        Slash_defence: 47
+        Crush_defence: 60
+        Magic_defence: 60
+        Ranged_defence: 55
+  Spined_body: 
+    stats:
+      attack_bonus:
+        Magic_attack: -15
+        Ranged_attack: 15
+      defence_bonus:
+        Stab_defence: 40   
+        Slash_defence: 32
+        Crush_defence: 45
+        Magic_defence: 20
+        Ranged_defence: 40
+  Frog-leather_body: 
+    stats:
+      attack_bonus:
+        Magic_attack: -5
+        Ranged_attack: 10
+      defence_bonus:
+        Stab_defence: 23
+        Slash_defence: 26
+        Crush_defence: 30
+        Magic_defence: 15
+        Ranged_defence: 32
+  Hard_leather_body: 
+    stats:
+      attack_bonus:
+        Magic_attack: -4
+        Ranged_attack: 8
+      defence_bonus:
+        Stab_defence: 12
+        Slash_defence: 15
+        Crush_defence: 18
+        Magic_defence: 6
+        Ranged_defence: 15
+  Leather: 
+    stats:
+      attack_bonus:
+        Magic_attack: -2
+        Ranged_attack: 2
+      defence_bonus:
+        Stab_defence: 8
+        Slash_defence: 9
+        Crush_defence: 10
+        Magic_defence: 4
+        Ranged_defence: 9
+  Ancestral_robe_top: 
+    stats:
+      attack_bonus:
+        Magic_attack: 35
+        Ranged_attack: -8
+      defence_bonus:
+        Stab_defence: 42
+        Slash_defence: 31
+        Crush_defence: 51
+        Magic_defence: 28
+        Ranged_defence: 0
+      other_bonus:
+        Magic_damage: 0.02
+  Ahrims_robetop: 
+    stats:
+      attack_bonus:
+        Magic_attack: 30
+        Ranged_attack: -10
+      defence_bonus:
+        Stab_defence: 52
+        Slash_defence: 37
+        Crush_defence: 63
+        Magic_defence: 30
+        Ranged_defence: 0
+  3rd_age_robe_top: 
+    stats:
+      attack_bonus:
+        Magic_attack: 24
+      defence_bonus:
+        Magic_defence: 24
+  Elder_chaos_top: 
+    stats:
+      attack_bonus:
+        Magic_attack: 10
+      defence_bonus:
+        Magic_defence: 8
+  Infinity_top: 
+    stats:
+      attack_bonus:
+        Magic_attack: 22
+      defence_bonus:
+        Magic_defence: 22
+  Mystic_robe_top: 
+    stats:
+      attack_bonus:
+        Magic_attack: 20
+      defence_bonus:
+        Magic_defence: 20
+  Vestment_robe_top: 
+    stats:
+      attack_bonus:
+        Magic_attack: 4
+      defence_bonus:
+        Magic_defence: 4
+      other_bonus:
+        Prayer: 6
+  Skeletal_top: 
+    stats:
+      attack_bonus:
+        Magic_attack: 8
+        Ranged_attack: -10
+      defence_bonus:
+        Stab_defence: 35
+        Slash_defence: 25
+        Crush_defence: 42
+        Magic_defence: 15
+  Monks_robe_top: 
+    stats:
+      other_bonus:
+        Prayer: 6
+  Bandos_tassets: 
+    stats:
+      attack_bonus:
+        Magic_attack: -21
+        Ranged_attack: -7
+      defence_bonus:
+        Stab_defence: 71
+        Slash_defence: 63
+        Crush_defence: 66
+        Magic_defence: -4
+        Ranged_defence: 93
+      other_bonus:
+        Melee_strength: 2
+        Prayer: 1
+  Void_knight_robe: 
+    stats:
+      defence_bonus:
+        Stab_defence: 30   
+        Slash_defence: 30
+        Crush_defence: 30
+        Magic_defence: 30
+        Ranged_defence: 30
+  Elite_void_robe: 
+    stats:
+      defence_bonus:
+        Stab_defence: 30   
+        Slash_defence: 30
+        Crush_defence: 30
+        Magic_defence: 30
+        Ranged_defence: 30
+      other_bonus:
+        Prayer: 3
+  Veracs_plateskirt: 
+    stats:
+      attack_bonus:
+        Magic_attack: -21
+        Ranged_attack: -7
+      defence_bonus:
+        Stab_defence: 85
+        Slash_defence: 82
+        Crush_defence: 83
+        Ranged_defence: 84
+      other_bonus:
+        Prayer: 4
+  Dharoks_platelegs: 
+    stats:
+      attack_bonus:
+        Magic_attack: -21
+        Ranged_attack: -7
+      defence_bonus:
+        Stab_defence: 82
+        Slash_defence: 82
+        Crush_defence: 83
+        Magic_defence: -4
+        Ranged_defence: 92
+  Guthans_chainskirt: 
+    stats:
+      attack_bonus:
+        Magic_attack: -14
+        Ranged_attack: -7
+      defence_bonus:
+        Stab_defence: 75
+        Slash_defence: 72
+        Crush_defence: 73
+        Magic_defence: -4
+        Ranged_defence: 82
+  Torags_platelegs: 
+    stats:
+      attack_bonus:
+        Magic_attack: -21
+        Ranged_attack: -7
+      defence_bonus:
+        Stab_defence: 82
+        Slash_defence: 82
+        Crush_defence: 83
+        Magic_defence: -4
+        Ranged_defence: 92
+  Obsidian_platelegs: 
+    stats:
+      defence_bonus:
+        Stab_defence: 46
+        Slash_defence: 43
+        Crush_defence: 41
+        Magic_defence: -10
+        Ranged_defence: 40
+      other_bonus:
+        Melee_strength: 1
+  Proselyte_cuisse: 
+    stats:
+      attack_bonus:
+        Magic_attack: -21
+        Ranged_attack: -7
+      defence_bonus:
+        Stab_defence: 33
+        Slash_defence: 31
+        Crush_defence: 29
+        Magic_defence: -4
+        Ranged_defence: 31
+      other_bonus:
+        Prayer: 6
+  Justiciar_legguard: 
+    stats:
+      attack_bonus:
+        Magic_attack: -31
+        Ranged_attack: -17
+      defence_bonus:
+        Stab_defence: 95
+        Slash_defence: 92
+        Crush_defence: 93
+        Magic_defence: -14
+        Ranged_defence: 102
+      other_bonus:
+        Prayer: 4
+  3rd_age_platelegs: 
+    stats:
+      attack_bonus:
+        Magic_attack: -25
+        Ranged_attack: -2
+      defence_bonus:
+        Stab_defence: 78
+        Slash_defence: 76
+        Crush_defence: 83
+        Magic_defence: -5
+        Ranged_defence: 75
+  Dragon_platelegs: 
+    stats:
+      attack_bonus:
+        Magic_attack: -21
+        Ranged_attack: -7
+      defence_bonus:
+        Stab_defence: 68
+        Slash_defence: 66
+        Crush_defence: 63
+        Magic_defence: -4
+        Ranged_defence: 65
+  Rune_platelegs: 
+    stats:
+      attack_bonus:
+        Magic_attack: -21
+        Ranged_attack: -7
+      defence_bonus:
+        Stab_defence: 51
+        Slash_defence: 49
+        Crush_defence: 47
+        Magic_defence: -4
+        Ranged_defence: 49
+  Armadyl_chainskirt: 
+    stats:
+      attack_bonus:
+        Stab_attack: -6
+        Slash_attack: -6
+        Crush_attack: -6
+        Magic_attack: -10
+        Ranged_attack: 20
+      defence_bonus:
+        Stab_defence: 32
+        Slash_defence: 26
+        Crush_defence: 34
+        Magic_defence: 40
+        Ranged_defence: 33
+      other_bonus:
+        Prayer: 1
+  Karils_leatherskirt: 
+    stats:
+      attack_bonus:
+        Magic_attack: -10
+        Ranged_attack: 17
+      defence_bonus:
+        Stab_defence: 26
+        Slash_defence: 20
+        Crush_defence: 28
+        Magic_defence: 35
+        Ranged_defence: 33
+  Blessed_dhide_chaps: 
+    stats:
+      attack_bonus:
+        Magic_attack: -10
+        Ranged_attack: 17
+      defence_bonus:
+        Stab_defence: 31
+        Slash_defence: 25
+        Crush_defence: 33
+        Magic_defence: 28
+        Ranged_defence: 31
+      other_bonus:
+        Prayer: 1
+  3rd_age_range_legs: 
+    stats:
+      attack_bonus:
+        Magic_attack: -10
+        Ranged_attack: 17
+      defence_bonus:
+        Stab_defence: 31
+        Slash_defence: 25
+        Crush_defence: 33
+        Magic_defence: 30
+        Ranged_defence: 31
+  Black_dhide_chaps: 
+    stats:
+      attack_bonus:
+        Magic_attack: -10
+        Ranged_attack: 17
+      defence_bonus:
+        Stab_defence: 31
+        Slash_defence: 25
+        Crush_defence: 33
+        Magic_defence: 28
+        Ranged_defence: 31
+  Red_dhide_chaps: 
+    stats:
+      attack_bonus:
+        Magic_attack: -10
+        Ranged_attack: 14
+      defence_bonus:
+        Stab_defence: 28
+        Slash_defence: 22
+        Crush_defence: 30
+        Magic_defence: 20
+        Ranged_defence: 28
+  Blue_dhide_chaps: 
+    stats:
+      attack_bonus:
+        Magic_attack: -10
+        Ranged_attack: 11
+      defence_bonus:
+        Stab_defence: 25
+        Slash_defence: 19
+        Crush_defence: 27
+        Magic_defence: 14
+        Ranged_defence: 25
+  Green_dhide_chaps: 
+    stats:
+      attack_bonus:
+        Magic_attack: -10
+        Ranged_attack: 8
+      defence_bonus:
+        Stab_defence: 22
+        Slash_defence: 16
+        Crush_defence: 24
+        Magic_defence: 8
+        Ranged_defence: 22
+  Studded_chaps: 
+    stats:
+      attack_bonus:
+        Magic_attack: -5
+        Ranged_attack: 6
+      defence_bonus:
+        Stab_defence: 15
+        Slash_defence: 16
+        Crush_defence: 17
+        Magic_defence: 6
+        Ranged_defence: 16
+  Snakeskin_chaps: 
+    stats:
+      attack_bonus:
+        Magic_attack: -5
+        Ranged_attack: 6
+      defence_bonus:
+        Stab_defence: 8
+        Slash_defence: 8
+        Crush_defence: 10
+        Magic_defence: 4
+        Ranged_defence: 10
+  Spined_chaps: 
+    stats:
+      attack_bonus:
+        Magic_attack: -10
+        Ranged_attack: 8
+      defence_bonus:
+        Stab_defence: 22
+        Slash_defence: 16
+        Crush_defence: 24
+        Magic_defence: 8
+        Ranged_defence: 22
+  Frog-leather_chaps: 
+    stats:
+      attack_bonus:
+        Magic_attack: -5
+        Ranged_attack: 2
+      defence_bonus:
+        Stab_defence: 7
+        Slash_defence: 7
+        Crush_defence: 9
+        Magic_defence: 4
+        Ranged_defence: 9
+  Penance_skirt: 
+    stats:
+      attack_bonus:
+        Magic_attack: -10
+        Ranged_attack: 15
+      defence_bonus:
+        Stab_defence: 26
+        Slash_defence: 21
+        Crush_defence: 28
+        Magic_defence: 19
+        Ranged_defence: 26
+  Leather_chaps: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 4
+      defence_bonus:
+        Stab_defence: 2
+        Slash_defence: 2
+        Crush_defence: 1
+  Ancestral_robe_bottoms: 
+    stats:
+      attack_bonus:
+        Magic_attack: 26
+        Ranged_attack: -7
+      defence_bonus:
+        Stab_defence: 27
+        Slash_defence: 24
+        Crush_defence: 30
+        Magic_defence: 28
+        Ranged_defence: 0
+      other_bonus:
+        Magic_damage: 0.02
+  Ahrims_robeskirt: 
+    stats:
+      attack_bonus:
+        Magic_attack: 22
+        Ranged_attack: -7
+      defence_bonus:
+        Stab_defence: 33
+        Slash_defence: 30
+        Crush_defence: 36
+        Magic_defence: 22
+  3rd_age_robe: 
+    stats:
+      attack_bonus:
+        Magic_attack: 19
+      defence_bonus:
+        Magic_defence: 19
+  Elder_chaos_robe: 
+    stats:
+      attack_bonus:
+        Magic_attack: 6
+      defence_bonus:
+        Magic_defence: 6
+  Infinity_bottoms: 
+    stats:
+      attack_bonus:
+        Magic_attack: 17
+      defence_bonus:
+        Magic_defence: 17
+  Mystic_robe_bottom: 
+    stats:
+      attack_bonus:
+        Magic_attack: 15
+      defence_bonus:
+        Magic_defence: 15
+  Vestment_robe_legs: 
+    stats:
+      attack_bonus:
+        Magic_attack: 4
+      defence_bonus:
+        Magic_defence: 4
+      other_bonus:
+        Prayer: 5
+  Skeletal_bottoms: 
+    stats:
+      attack_bonus:
+        Magic_attack: 6
+        Ranged_attack: -7
+      defence_bonus:
+        Stab_defence: 22
+        Slash_defence: 20
+        Crush_defence: 24
+        Magic_defence: 10
+  Monks_robe_bottom: 
+    stats:
+      other_bonus:
+        Prayer: 5
+  Avernic_defender: 
+    stats:
+      attack_bonus:
+        Stab_attack: 30   
+        Slash_attack: 29
+        Crush_attack: 28
+        Magic_attack: -5
+        Ranged_attack: -4
+      defence_bonus:
+        Stab_defence: 30   
+        Slash_defence: 29
+        Crush_defence: 28
+        Magic_defence: -5
+        Ranged_defence: -4
+      other_bonus:
+        Melee_strength: 8
+  Dragonfire_shield: 
+    stats:
+      attack_bonus:
+        Magic_attack: -10
+        Ranged_attack: -5
+      defence_bonus:
+        Stab_defence: 70   
+        Slash_defence: 75
+        Crush_defence: 72
+        Magic_defence: 10
+        Ranged_defence: 72
+      other_bonus:
+        Melee_strength: 7
+  Dragon_defender: 
+    stats:
+      attack_bonus:
+        Stab_attack: 25
+        Slash_attack: 24
+        Crush_attack: 23
+        Magic_attack: -3
+        Ranged_attack: -2
+      defence_bonus:
+        Stab_defence: 25
+        Slash_defence: 24
+        Crush_defence: 23
+        Magic_defence: -3
+        Ranged_defence: -2
+      other_bonus:
+        Melee_strength: 6
+  Crystal_shield: 
+    stats:
+      attack_bonus:
+        Magic_attack: -10
+        Ranged_attack: -10
+      defence_bonus:
+        Stab_defence: 51
+        Slash_defence: 54
+        Crush_defence: 53
+        Magic_defence: 0
+        Ranged_defence: 80
+  Dragon_sq_hield: 
+    stats:
+      attack_bonus:
+        Magic_attack: -6
+        Ranged_attack: -2
+      defence_bonus:
+        Stab_defence: 50   
+        Slash_defence: 52
+        Crush_defence: 48
+        Ranged_defence: 50
+  3rd_age_kiteshield: 
+    stats:
+      attack_bonus:
+        Magic_attack: -10
+        Ranged_attack: -4
+      defence_bonus:
+        Stab_defence: 63
+        Slash_defence: 65
+        Crush_defence: 61
+        Magic_defence: -3
+        Ranged_defence: 63
+  Rune_kiteshield: 
+    stats:
+      attack_bonus:
+        Magic_attack: -8
+        Ranged_attack: -2
+      defence_bonus:
+        Stab_defence: 44
+        Slash_defence: 48
+        Crush_defence: 46
+        Magic_defence: -1
+        Ranged_defence: 46
+  Dragon_kiteshield: 
+    stats:
+      attack_bonus:
+        Magic_attack: -8
+        Ranged_attack: -2
+      defence_bonus:
+        Stab_defence: 56
+        Slash_defence: 60
+        Crush_defence: 58
+        Magic_defence: -1
+        Ranged_defence: 58
+  Rune_defender: 
+    stats:
+      attack_bonus:
+        Stab_attack: 20   
+        Slash_attack: 19
+        Crush_attack: 18
+        Magic_attack: -3
+        Ranged_attack: -2
+      defence_bonus:
+        Stab_defence: 20   
+        Slash_defence: 19
+        Crush_defence: 18
+        Magic_defence: -3
+        Ranged_defence: -2
+      other_bonus:
+        Melee_strength: 5
+  Obsidian_shield: 
+    stats:
+      attack_bonus:
+        Magic_attack: -12
+        Ranged_attack: -8
+      defence_bonus:
+        Stab_defence: 40   
+        Slash_defence: 42
+        Crush_defence: 38
+        Magic_defence: 0
+        Ranged_defence: 65
+      other_bonus:
+        Melee_strength: 5
+  Unholy_book: 
+    stats:
+      attack_bonus:
+        Stab_attack: 8
+        Slash_attack: 8
+        Crush_attack: 8
+        Magic_attack: 8
+        Ranged_attack: 8
+      other_bonus:
+        Prayer: 5
+  Book_of_balance: 
+    stats:
+      attack_bonus:
+        Stab_attack: 4
+        Slash_attack: 4
+        Crush_attack: 4
+        Magic_attack: 4
+        Ranged_attack: 4
+      defence_bonus:
+        Stab_defence: 4
+        Slash_defence: 4
+        Crush_defence: 4
+        Magic_defence: 4
+        Ranged_defence: 4
+      other_bonus:
+        Prayer: 5
+  Falador_shield_1: 
+    stats:
+      attack_bonus:
+        Magic_attack: -8
+        Ranged_attack: -2
+      defence_bonus:
+        Stab_defence: 8
+        Slash_defence: 10
+        Crush_defence: 9
+        Magic_defence: -1
+        Ranged_defence: 9
+      other_bonus:
+        Melee_strength: 1
+  Falador_shield_2: 
+    stats:
+      attack_bonus:
+        Magic_attack: -8
+        Ranged_attack: -2
+      defence_bonus:
+        Stab_defence: 13
+        Slash_defence: 15
+        Crush_defence: 14
+        Magic_defence: -1
+        Ranged_defence: 14
+      other_bonus:
+        Melee_strength: 3
+  Falador_shield_3: 
+    stats:
+      attack_bonus:
+        Magic_attack: -8
+        Ranged_attack: -2
+      defence_bonus:
+        Stab_defence: 18
+        Slash_defence: 22
+        Crush_defence: 20
+        Magic_defence: -1
+        Ranged_defence: 20
+      other_bonus:
+        Melee_strength: 4
+  Falador_shield_4: 
+    stats:
+      attack_bonus:
+        Magic_attack: -8
+        Ranged_attack: -2
+      defence_bonus:
+        Stab_defence: 27
+        Slash_defence: 31
+        Crush_defence: 29
+        Magic_defence: -1
+        Ranged_defence: 29
+      other_bonus:
+        Melee_strength: 5
+  Elysian_spirit_shield: 
+    stats:
+      defence_bonus:
+        Stab_defence: 63
+        Slash_defence: 65
+        Crush_defence: 75
+        Magic_defence: 2
+        Ranged_defence: 57
+      other_bonus:
+        Prayer: 3
+  Arcane_spirit_shield: 
+    stats:
+      attack_bonus:
+        Magic_attack: 20
+      defence_bonus:
+        Stab_defence: 53
+        Slash_defence: 55
+        Crush_defence: 73
+        Magic_defence: 2
+        Ranged_defence: 52
+      other_bonus:
+        Prayer: 3
+  Spectral_spirit_shield: 
+    stats:
+      defence_bonus:
+        Stab_defence: 53
+        Slash_defence: 55
+        Crush_defence: 73
+        Magic_defence: 30
+        Ranged_defence: 52
+      other_bonus:
+        Prayer: 3
+  Mind_shield: 
+    stats:
+      defence_bonus:
+        Magic_defence: 9
+  Ancient_Wyvern_shield: 
+    stats:
+      attack_bonus:
+        Stab_attack: -10   
+        Slash_attack: -10
+        Crush_attack: -10
+        Magic_attack: 15
+        Ranged_attack: -10
+      defence_bonus:
+        Stab_defence: 72
+        Slash_defence: 80
+        Crush_defence: 75
+        Magic_defence: 15
+        Ranged_defence: -5
+      other_bonus:
+        Melee_strength: -2
+  Anti-dragon_shield: 
+    stats:
+      defence_bonus:
+        Stab_defence: 7
+        Slash_defence: 8
+        Crush_defence: 9
+        Magic_defence: 2
+        Ranged_defence: 8
+  Twisted_buckler: 
+    stats:
+      attack_bonus:
+        Stab_attack: -7
+        Slash_attack: -8
+        Crush_attack: -7
+        Magic_attack: -10
+        Ranged_attack: 18
+      defence_bonus:
+        Stab_defence: 22
+        Slash_defence: 24
+        Crush_defence: 22
+        Magic_defence: 26
+        Ranged_defence: 58
+  Dragonfire_ward: 
+    stats:
+      attack_bonus:
+        Stab_attack: -10   
+        Slash_attack: -10
+        Crush_attack: -10
+        Magic_attack: -10
+        Ranged_attack: 15
+      defence_bonus:
+        Stab_defence: 25
+        Slash_defence: 30
+        Crush_defence: 28
+        Magic_defence: 28
+        Ranged_defence: 68
+      other_bonus:
+        Melee_strength: -2
+  Odium_ward: 
+    stats:
+      attack_bonus:
+        Stab_attack: -12
+        Slash_attack: -12
+        Crush_attack: -12
+        Magic_attack: -8
+        Ranged_attack: 12
+      defence_bonus:
+        Magic_defence: 24
+        Ranged_defence: 52
+  Hard_leather_shield: 
+    stats:
+      attack_bonus:
+        Stab_attack: -15
+        Slash_attack: -15
+        Crush_attack: -11
+        Magic_attack: -10
+        Ranged_attack: 2
+      defence_bonus:
+        Stab_defence: 8
+        Slash_defence: 7
+        Crush_defence: 7
+        Magic_defence: 5
+        Ranged_defence: 9
+  Snakeskin_shield: 
+    stats:
+      attack_bonus:
+        Stab_attack: -15
+        Slash_attack: -15
+        Crush_attack: -11
+        Magic_attack: -10
+        Ranged_attack: 3
+      defence_bonus:
+        Stab_defence: 10   
+        Slash_defence: 9
+        Crush_defence: 8
+        Magic_defence: 7
+        Ranged_defence: 10
+  Green_dhide_shield: 
+    stats:
+      attack_bonus:
+        Stab_attack: -15
+        Slash_attack: -15
+        Crush_attack: -11
+        Magic_attack: -10
+        Ranged_attack: 4
+      defence_bonus:
+        Stab_defence: 14
+        Slash_defence: 12
+        Crush_defence: 11
+        Magic_defence: 9
+        Ranged_defence: 11
+  Blue_dhide_shield: 
+    stats:
+      attack_bonus:
+        Stab_attack: -15
+        Slash_attack: -15
+        Crush_attack: -11
+        Magic_attack: -10
+        Ranged_attack: 5
+      defence_bonus:
+        Stab_defence: 16
+        Slash_defence: 14
+        Crush_defence: 12
+        Magic_defence: 12
+        Ranged_defence: 12
+  Red_dhide_shield: 
+    stats:
+      attack_bonus:
+        Stab_attack: -15
+        Slash_attack: -15
+        Crush_attack: -11
+        Magic_attack: -10
+        Ranged_attack: 6
+      defence_bonus:
+        Stab_defence: 18
+        Slash_defence: 16
+        Crush_defence: 14
+        Magic_defence: 13
+        Ranged_defence: 13
+  Black_dhide_shield: 
+    stats:
+      attack_bonus:
+        Stab_attack: -15
+        Slash_attack: -15
+        Crush_attack: -11
+        Magic_attack: -10
+        Ranged_attack: 7
+      defence_bonus:
+        Stab_defence: 21
+        Slash_defence: 18
+        Crush_defence: 16
+        Magic_defence: 15
+        Ranged_defence: 14
+  Mages_book: 
+    stats:
+      attack_bonus:
+        Magic_attack: 15
+      defence_bonus:
+        Magic_defence: 15
+  Malediction_ward: 
+    stats:
+      attack_bonus:
+        Stab_attack: -8
+        Slash_attack: -8
+        Crush_attack: -8
+        Magic_attack: 12
+        Ranged_attack: -12
+      defence_bonus:
+        Stab_defence: 50   
+        Slash_defence: 52
+        Crush_defence: 48
+        Magic_defence: 15
+  Tome_of_fire: 
+    stats:
+      attack_bonus:
+        Magic_attack: 8
+      defence_bonus:
+        Magic_defence: 8
+  Book_of_law: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 10
+      other_bonus:
+        Prayer: 5
+  Book_of_war: 
+    stats:
+      other_bonus:
+        Melee_strength: 2
+        Prayer: 5
+  Book_of_darkness: 
+    stats:
+      attack_bonus:
+        Magic_attack: 10
+      other_bonus:
+        Prayer: 5
+  Ferocious_gloves: 
+    stats:
+      attack_bonus:
+        Stab_attack: 16
+        Slash_attack: 16
+        Crush_attack: 16
+        Magic_attack: -16
+        Ranged_attack: -16
+      defence_bonus:
+        Stab_defence: 0   
+        Slash_defence: 0
+        Crush_defence: 0
+        Magic_defence: 0
+        Ranged_defence: 0
+      other_bonus:
+        Melee_strength: 14
+  Barrows_gloves: 
+    stats:
+      attack_bonus:
+        Stab_attack: 12
+        Slash_attack: 12
+        Crush_attack: 12
+        Magic_attack: 6
+        Ranged_attack: 12
+      defence_bonus:
+        Stab_defence: 12
+        Slash_defence: 12
+        Crush_defence: 12
+        Magic_defence: 6
+        Ranged_defence: 12
+      other_bonus:
+        Melee_strength: 12
+  Void_knight_gloves: 
+    stats:
+      defence_bonus:
+        Stab_defence: 6
+        Slash_defence: 6
+        Crush_defence: 6
+        Magic_defence: 4
+        Ranged_defence: 6
+  Tormented_bracelet: 
+    stats:
+      attack_bonus:
+        Magic_attack: 10
+      other_bonus:
+        Magic_damage: 0.05
+        Prayer: 2
+  Dragon_gloves: 
+    stats:
+      attack_bonus:
+        Stab_attack: 9
+        Slash_attack: 9
+        Crush_attack: 9
+        Magic_attack: 5
+        Ranged_attack: 9
+      defence_bonus:
+        Stab_defence: 9
+        Slash_defence: 9
+        Crush_defence: 9
+        Magic_defence: 5
+        Ranged_defence: 9
+      other_bonus:
+        Melee_strength: 9
+  Rune_gloves: 
+    stats:
+      attack_bonus:
+        Stab_attack: 8
+        Slash_attack: 8
+        Crush_attack: 8
+        Magic_attack: 4
+        Ranged_attack: 8
+      defence_bonus:
+        Stab_defence: 8
+        Slash_defence: 8
+        Crush_defence: 8
+        Magic_defence: 4
+        Ranged_defence: 8
+      other_bonus:
+        Melee_strength: 8
+  Adamant_gloves: 
+    stats:
+      attack_bonus:
+        Stab_attack: 7
+        Slash_attack: 7
+        Crush_attack: 7
+        Magic_attack: 4
+        Ranged_attack: 7
+      defence_bonus:
+        Stab_defence: 7
+        Slash_defence: 7
+        Crush_defence: 7
+        Magic_defence: 4
+        Ranged_defence: 7
+      other_bonus:
+        Melee_strength: 7
+  Mithril_gloves: 
+    stats:
+      attack_bonus:
+        Stab_attack: 6
+        Slash_attack: 6
+        Crush_attack: 6
+        Magic_attack: 3
+        Ranged_attack: 6
+      defence_bonus:
+        Stab_defence: 6
+        Slash_defence: 6
+        Crush_defence: 6
+        Magic_defence: 3
+        Ranged_defence: 6
+      other_bonus:
+        Melee_strength: 6
+  Black_gloves: 
+    stats:
+      attack_bonus:
+        Stab_attack: 5
+        Slash_attack: 5
+        Crush_attack: 5
+        Magic_attack: 3
+        Ranged_attack: 5
+      defence_bonus:
+        Stab_defence: 5
+        Slash_defence: 5
+        Crush_defence: 5
+        Magic_defence: 3
+        Ranged_defence: 5
+      other_bonus:
+        Melee_strength: 5
+  Steel_gloves: 
+    stats:
+      attack_bonus:
+        Stab_attack: 4
+        Slash_attack: 4
+        Crush_attack: 4
+        Magic_attack: 2
+        Ranged_attack: 4
+      defence_bonus:
+        Stab_defence: 4
+        Slash_defence: 4
+        Crush_defence: 4
+        Magic_defence: 2
+        Ranged_defence: 4
+      other_bonus:
+        Melee_strength: 4
+  Iron_gloves: 
+    stats:
+      attack_bonus:
+        Stab_attack: 3
+        Slash_attack: 3
+        Crush_attack: 3
+        Magic_attack: 2
+        Ranged_attack: 3
+      defence_bonus:
+        Stab_defence: 3
+        Slash_defence: 3
+        Crush_defence: 3
+        Magic_defence: 2
+        Ranged_defence: 3
+      other_bonus:
+        Melee_strength: 3
+  Bronze_gloves: 
+    stats:
+      attack_bonus:
+        Stab_attack: 2
+        Slash_attack: 2
+        Crush_attack: 2
+        Magic_attack: 1
+        Ranged_attack: 2
+      defence_bonus:
+        Stab_defence: 2
+        Slash_defence: 2
+        Crush_defence: 2
+        Magic_defence: 1
+        Ranged_defence: 2
+      other_bonus:
+        Melee_strength: 2
+  Hardleather_gloves: 
+    stats:
+      attack_bonus:
+        Stab_attack: 1
+        Slash_attack: 1
+        Crush_attack: 1
+        Magic_attack: 1
+        Ranged_attack: 1
+      defence_bonus:
+        Stab_defence: 1
+        Slash_defence: 1
+        Crush_defence: 1
+        Magic_defence: 1
+        Ranged_defence: 1
+      other_bonus:
+        Melee_strength: 1
+  Regen_bracelet: 
+    stats:
+      attack_bonus:
+        Stab_attack: 8
+        Slash_attack: 8
+        Crush_attack: 8
+        Magic_attack: 3
+        Ranged_attack: 7
+      defence_bonus:
+        Stab_defence: 6
+        Slash_defence: 6
+        Crush_defence: 6
+        Magic_defence: 3
+        Ranged_defence: 6
+      other_bonus:
+        Melee_strength: 7
+  Combat_bracelet: 
+    stats:
+      attack_bonus:
+        Stab_attack: 7
+        Slash_attack: 7
+        Crush_attack: 7
+        Magic_attack: 3
+        Ranged_attack: 7
+      defence_bonus:
+        Stab_defence: 5
+        Slash_defence: 5
+        Crush_defence: 5
+        Magic_defence: 3
+        Ranged_defence: 5
+      other_bonus:
+        Melee_strength: 6
+  Granite_gloves: 
+    stats:
+      attack_bonus:
+        Stab_attack: 5
+        Slash_attack: 5
+        Crush_attack: 9
+        Magic_attack: -3
+        Ranged_attack: -1
+      defence_bonus:
+        Stab_defence: 8
+        Slash_defence: 8
+        Crush_defence: 8
+        Magic_defence: -3
+        Ranged_defence: 5
+      other_bonus:
+        Melee_strength: 7
+  Chaos_gauntlets: 
+    stats:
+      attack_bonus:
+        Stab_attack: 2
+        Slash_attack: 2
+        Crush_attack: 2
+      defence_bonus:
+        Stab_defence: 8
+        Slash_defence: 9
+        Crush_defence: 7
+      other_bonus:
+        Melee_strength: 2
+  Black_dhide_vamb: 
+    stats:
+      attack_bonus:
+        Magic_attack: -10
+        Ranged_attack: 11
+      defence_bonus:
+        Stab_defence: 6
+        Slash_defence: 5
+        Crush_defence: 7
+        Magic_defence: 8
+  Red_dhide_vamb: 
+    stats:
+      attack_bonus:
+        Magic_attack: -10
+        Ranged_attack: 10
+      defence_bonus:
+        Stab_defence: 5
+        Slash_defence: 4
+        Crush_defence: 6
+        Magic_defence: 6
+  Blue_dhide_vamb: 
+    stats:
+      attack_bonus:
+        Magic_attack: -10
+        Ranged_attack: 9
+      defence_bonus:
+        Stab_defence: 4
+        Slash_defence: 3
+        Crush_defence: 5
+        Magic_defence: 4
+  Green_dhide_vamb: 
+    stats:
+      attack_bonus:
+        Magic_attack: -10
+        Ranged_attack: 8
+      defence_bonus:
+        Stab_defence: 3
+        Slash_defence: 2
+        Crush_defence: 4
+        Magic_defence: 2
+  Snakeskin_vamb: 
+    stats:
+      attack_bonus:
+        Magic_attack: -5
+        Ranged_attack: 6
+      defence_bonus:
+        Stab_defence: 2
+        Slash_defence: 2
+        Crush_defence: 2
+        Magic_defence: 1
+  Spined_gloves: 
+    stats:
+      defence_bonus:
+        Slash_defence: 1
+        Crush_defence: 2
+  Blessed_dhide_vamb: 
+    stats:
+      attack_bonus:
+        Magic_attack: -10
+        Ranged_attack: 11
+      defence_bonus:
+        Stab_defence: 6
+        Slash_defence: 5
+        Crush_defence: 7
+        Magic_defence: 8
+      other_bonus:
+        Prayer: 1
+  Ranger_gloves: 
+    stats:
+      attack_bonus:
+        Magic_attack: -10
+        Ranged_attack: 11
+      defence_bonus:
+        Stab_defence: 1
+        Slash_defence: 2
+        Crush_defence: 1
+        Magic_defence: 2
+  Leather_gloves: 
+    stats:
+      defence_bonus:
+        Slash_defence: 1
+        Crush_defence: 2
+  3rd_age_vambraces: 
+    stats:
+      attack_bonus:
+        Magic_attack: -10
+        Ranged_attack: 11
+      defence_bonus:
+        Stab_defence: 6
+        Slash_defence: 5
+        Crush_defence: 7
+        Magic_defence: 9
+  Skeletal_gloves: 
+    stats:
+      defence_bonus:
+        Slash_defence: 1
+        Crush_defence: 2
+  Leather_vambraces: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 4
+      defence_bonus:
+        Stab_defence: 2
+        Slash_defence: 2
+        Crush_defence: 1
+  Primordial_boots: 
+    stats:
+      attack_bonus:
+        Stab_attack: 2
+        Slash_attack: 2
+        Crush_attack: 2
+        Magic_attack: -4
+        Ranged_attack: -1
+      defence_bonus:
+        Stab_defence: 22
+        Slash_defence: 22
+        Crush_defence: 22
+      other_bonus:
+        Melee_strength: 5
+  Dragon_boots: 
+    stats:
+      attack_bonus:
+        Magic_attack: -3
+        Ranged_attack: -1
+      defence_bonus:
+        Stab_defence: 16
+        Slash_defence: 17
+        Crush_defence: 18
+      other_bonus:
+        Melee_strength: 4
+  Rune_boots: 
+    stats:
+      attack_bonus:
+        Magic_attack: -3
+        Ranged_attack: -1
+      defence_bonus:
+        Stab_defence: 12
+        Slash_defence: 13
+        Crush_defence: 14
+      other_bonus:
+        Melee_strength: 2
+  Adamant_boots: 
+    stats:
+      attack_bonus:
+        Magic_attack: -3
+        Ranged_attack: -1
+      defence_bonus:
+        Stab_defence: 10   
+        Slash_defence: 11
+        Crush_defence: 12
+      other_bonus:
+        Melee_strength: 1
+  Climbing_boots: 
+    stats:
+      defence_bonus:
+        Slash_defence: 2
+        Crush_defence: 2
+      other_bonus:
+        Melee_strength: 2
+  Bandos_boots: 
+    stats:
+      attack_bonus:
+        Magic_attack: -5
+        Ranged_attack: -3
+      defence_bonus:
+        Stab_defence: 17
+        Slash_defence: 18
+        Crush_defence: 19
+        Ranged_defence: 15
+      other_bonus:
+        Prayer: 1
+  Granite_boots: 
+    stats:
+      attack_bonus:
+        Magic_attack: -3
+        Ranged_attack: -1
+      defence_bonus:
+        Stab_defence: 12
+        Slash_defence: 13
+        Crush_defence: 14
+        Magic_defence: 0
+        Ranged_defence: 8
+      other_bonus:
+        Melee_strength: 3
+  Guardian_boots: 
+    stats:
+      attack_bonus:
+        Magic_attack: -3
+        Ranged_attack: -1
+      defence_bonus:
+        Stab_defence: 32
+        Slash_defence: 32
+        Crush_defence: 32
+        Magic_defence: -3
+        Ranged_defence: 24
+      other_bonus:
+        Melee_strength: 3
+        Prayer: 2
+  Boots_of_stone: 
+    stats:
+      defence_bonus:
+        Stab_defence: 1
+        Slash_defence: 1
+        Crush_defence: 1
+  Boots_of_brimstone: 
+    stats:
+      attack_bonus:
+        Stab_attack: 3
+        Slash_attack: 0
+        Crush_attack: 0
+        Magic_attack: 3
+        Ranged_attack: 5
+      defence_bonus:
+        Stab_defence: 10   
+        Slash_defence: 10
+        Crush_defence: 10
+        Magic_defence: 5
+        Ranged_defence: 5
+  White_boots: 
+    stats:
+      attack_bonus:
+        Magic_attack: -3
+        Ranged_attack: -1
+      defence_bonus:
+        Stab_defence: 7
+        Slash_defence: 8
+        Crush_defence: 9
+      other_bonus:
+        Prayer: 1
+  Holy_sandals: 
+    stats:
+      other_bonus:
+        Prayer: 3
+  Devout_boots: 
+    stats:
+      attack_bonus:
+        Stab_attack: 0   
+        Slash_attack: 0
+        Crush_attack: 0
+        Magic_attack: 0
+        Ranged_attack: 0
+      defence_bonus:
+        Stab_defence: 0   
+        Slash_defence: 0
+        Crush_defence: 0
+        Magic_defence: 0
+        Ranged_defence: 0
+      other_bonus:
+        Prayer: 5
+  Pegasian_boots: 
+    stats:
+      attack_bonus:
+        Magic_attack: -12
+        Ranged_attack: 12
+      defence_bonus:
+        Stab_defence: 5
+        Slash_defence: 5
+        Crush_defence: 5
+        Magic_defence: 5
+  Ranger_boots: 
+    stats:
+      attack_bonus:
+        Magic_attack: -10
+        Ranged_attack: 8
+      defence_bonus:
+        Stab_defence: 2
+        Slash_defence: 3
+        Crush_defence: 4
+        Magic_defence: 2
+  Blessed_dhide_boots: 
+    stats:
+      attack_bonus:
+        Magic_attack: -10
+        Ranged_attack: 7
+      defence_bonus:
+        Stab_defence: 4
+        Slash_defence: 4
+        Crush_defence: 4
+        Magic_defence: 4
+        Ranged_defence: 4
+      other_bonus:
+        Prayer: 1
+  Snakeskin_boots: 
+    stats:
+      attack_bonus:
+        Magic_attack: -10
+        Ranged_attack: 3
+      defence_bonus:
+        Stab_defence: 1
+        Slash_defence: 1
+        Crush_defence: 2
+        Magic_defence: 1
+  Spined_boots: 
+    stats:
+      defence_bonus:
+        Slash_defence: 1
+        Crush_defence: 1
+  Frog-leather_boots: 
+    stats:
+      attack_bonus:
+        Magic_attack: -8
+        Ranged_attack: 2
+      defence_bonus:
+        Stab_defence: 1
+        Slash_defence: 1
+        Crush_defence: 1
+        Ranged_defence: 1
+  Runner_boots: 
+    stats:
+      attack_bonus:
+        Magic_attack: 1
+        Ranged_attack: 1
+      defence_bonus:
+        Stab_defence: 8
+        Slash_defence: 8
+        Crush_defence: 8
+  Eternal_boots: 
+    stats:
+      attack_bonus:
+        Magic_attack: 8
+      defence_bonus:
+        Stab_defence: 5
+        Slash_defence: 5
+        Crush_defence: 5
+        Magic_defence: 8
+        Ranged_defence: 5
+  Infinity_boots: 
+    stats:
+      attack_bonus:
+        Magic_attack: 5
+      defence_bonus:
+        Magic_defence: 5
+  Wizard_boots: 
+    stats:
+      attack_bonus:
+        Magic_attack: 4
+      defence_bonus:
+        Magic_defence: 4
+  Mystic_boots: 
+    stats:
+      attack_bonus:
+        Magic_attack: 3
+      defence_bonus:
+        Magic_defence: 3
+  Skeletal_boots: 
+    stats:
+      defence_bonus:
+        Slash_defence: 1
+        Crush_defence: 1
+  Fighting_boots: 
+    stats:
+      defence_bonus:
+        Stab_defence: 1
+        Crush_defence: 3
+  Fancy_boots: 
+    stats:
+      defence_bonus:
+        Stab_defence: 1
+        Slash_defence: 2
+        Crush_defence: 3
+  Berserker_(i): 
+    stats:
+      defence_bonus:
+        Crush_defence: 8
+      other_bonus:
+        Melee_strength: 8
+  Berserker: 
+    stats:
+      defence_bonus:
+        Crush_defence: 4
+      other_bonus:
+        Melee_strength: 4
+  Warrior_(i): 
+    stats:
+      attack_bonus:
+        Slash_attack: 8
+      defence_bonus:
+        Slash_defence: 8
+  Warrior: 
+    stats:
+      attack_bonus:
+        Slash_attack: 4
+      defence_bonus:
+        Slash_defence: 4
+  Treasonous_(i): 
+    stats:
+      attack_bonus:
+        Stab_attack: 8
+      defence_bonus:
+        Stab_defence: 8
+  Treasonous: 
+    stats:
+      attack_bonus:
+        Stab_attack: 4
+      defence_bonus:
+        Stab_defence: 4
+  Tyrannical_(i): 
+    stats:
+      attack_bonus:
+        Crush_attack: 8
+      defence_bonus:
+        Crush_defence: 8
+  Tyrannical: 
+    stats:
+      attack_bonus:
+        Crush_attack: 4
+      defence_bonus:
+        Crush_defence: 4
+  Ring_of_the_gods: 
+    stats:
+      defence_bonus:
+        Stab_defence: 1
+        Slash_defence: 1
+        Crush_defence: 1
+        Magic_defence: 1
+        Ranged_defence: 1
+      other_bonus:
+        Prayer: 4
+  Ring_of_the_gods_(i): 
+    stats:
+      defence_bonus:
+        Stab_defence: 1
+        Slash_defence: 1
+        Crush_defence: 1
+        Magic_defence: 1
+        Ranged_defence: 1
+      other_bonus:
+        Prayer: 8
+  Ring_of_suffering: 
+    stats:
+      defence_bonus:
+        Stab_defence: 10   
+        Slash_defence: 10
+        Crush_defence: 10
+        Magic_defence: 10
+        Ranged_defence: 10
+      other_bonus:
+        Prayer: 2
+  Ring_of_suffering_(i): 
+    stats:
+      defence_bonus:
+        Stab_defence: 20   
+        Slash_defence: 20
+        Crush_defence: 20
+        Magic_defence: 20
+        Ranged_defence: 20
+      other_bonus:
+        Prayer: 4
+  Archer_(i): 
+    stats:
+      attack_bonus:
+        Ranged_attack: 8
+      defence_bonus:
+        Ranged_defence: 8
+  Archer: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 4
+      defence_bonus:
+        Ranged_defence: 4
+  Seers_(i): 
+    stats:
+      attack_bonus:
+        Magic_attack: 12
+      defence_bonus:
+        Magic_defence: 12
+  Seers: 
+    stats:
+      attack_bonus:
+        Magic_attack: 6
+      defence_bonus:
+        Magic_defence: 6
+  Granite_ring: 
+    stats:
+      defence_bonus:
+        Stab_defence: 2
+        Slash_defence: 2
+        Crush_defence: 2
+        Magic_defence: -2
+        Ranged_defence: 8
+  Granite_ring_(i): 
+    stats:
+      defence_bonus:
+        Stab_defence: 4
+        Slash_defence: 4
+        Crush_defence: 4
+        Magic_defence: -2
+        Ranged_defence: 16
+  Beacon_ring: 
+    stats:
+      attack_bonus:
+        Magic_attack: 2
+      defence_bonus:
+        Magic_defence: 1
+  Brimstone_ring: 
+    stats:
+      attack_bonus:
+        Stab_attack: 4
+        Slash_attack: 4
+        Crush_attack: 4
+        Magic_attack: 6
+        Ranged_attack: 4
+      defence_bonus:
+        Stab_defence: 4
+        Slash_defence: 4
+        Crush_defence: 4
+        Magic_defence: 6
+        Ranged_defence: 4
+      other_bonus:
+        Melee_strength: 4
+  Explorers_ring: 
+    stats:
+      other_bonus:
+        Prayer: 1
+  Blessing: 
+    stats:
+      other_bonus:
+        Prayer: 1
+  Radas_blessing_4: 
+    stats:
+      other_bonus:
+        Prayer: 2
+  Bronze_dart: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 3
+      other_bonus:
+        Ranged_strength: 1
+      Attack_speed: 7
+  Iron_dart: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 4
+      other_bonus:
+        Ranged_strength: 3
+      Attack_speed: 7
+  Steel_dart: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 5
+      other_bonus:
+        Ranged_strength: 4
+      Attack_speed: 7
+  Black_dart: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 7
+      other_bonus:
+        Ranged_strength: 6
+      Attack_speed: 7
+  Mithril_dart: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 8
+      other_bonus:
+        Ranged_strength: 7
+      Attack_speed: 7
+  Adamant_dart: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 11
+      other_bonus:
+        Ranged_strength: 10
+      Attack_speed: 7
+  Rune_dart: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 15
+      other_bonus:
+        Ranged_strength: 14
+      Attack_speed: 7
+  Dragon_dart: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 18
+      other_bonus:
+        Ranged_strength: 20
+      Attack_speed: 7
+  Bronze_knife: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 4
+      other_bonus:
+        Ranged_strength: 3
+      Attack_speed: 7
+  Iron_knife: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 5
+      other_bonus:
+        Ranged_strength: 4
+      Attack_speed: 7
+  Steel_knife: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 8
+      other_bonus:
+        Ranged_strength: 7
+      Attack_speed: 7
+  Black_knife: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 10
+      other_bonus:
+        Ranged_strength: 8
+      Attack_speed: 7
+  Mithril_knife: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 11
+      other_bonus:
+        Ranged_strength: 10
+      Attack_speed: 7
+  Adamant_knife: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 15
+      other_bonus:
+        Ranged_strength: 14
+      Attack_speed: 7
+  Rune_knife: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 25
+      other_bonus:
+        Ranged_strength: 24
+      Attack_speed: 7
+  Dragon_knife: 
+    stats:
+      attack_bonus:
+        Ranged_attack: 28
+      other_bonus:
+        Ranged_strength: 30
+      Attack_speed: 7
+  Bronze_arrow: 
+    stats:
+      other_bonus:
+        Ranged_strength: 7
+  Iron_arrow: 
+    stats:
+      other_bonus:
+        Ranged_strength: 10
+  Steel_arrow: 
+    stats:
+      other_bonus:
+        Ranged_strength: 16
+  Mithril_arrow: 
+    stats:
+      other_bonus:
+        Ranged_strength: 22
+  Adamant_arrow: 
+    stats:
+      other_bonus:
+        Ranged_strength: 31
+  Rune_arrow: 
+    stats:
+      other_bonus:
+        Ranged_strength: 49
+  Amethyst_arrow: 
+    stats:
+      other_bonus:
+        Ranged_strength: 55
+  Dragon_arrow: 
+    stats:
+      other_bonus:
+        Ranged_strength: 60
+  Bronze_javelin: 
+    stats:
+      other_bonus:
+        Ranged_strength: 25
+  Iron_javelin: 
+    stats:
+      other_bonus:
+        Ranged_strength: 42
+  Steel_javelin: 
+    stats:
+      other_bonus:
+        Ranged_strength: 64
+  Mithril_javelin: 
+    stats:
+      other_bonus:
+        Ranged_strength: 85
+  Adamant_javelin: 
+    stats:
+      other_bonus:
+        Ranged_strength: 107
+  Rune_javelin: 
+    stats:
+      other_bonus:
+        Ranged_strength: 124
+  Amethyst_javelin: 
+    stats:
+      other_bonus:
+        Ranged_strength: 135
+  Dragon_javelin: 
+    stats:
+      other_bonus:
+        Ranged_strength: 150
+  Bolt_rack: 
+    stats:
+      other_bonus:
+        Ranged_strength: 55
+  Broad_bolts: 
+    stats:
+      other_bonus:
+        Ranged_strength: 100
+  Opal_bolts_(e): 
+    stats:
+      other_bonus:
+        Ranged_strength: 14
+      special_bonuses:
+        Special_damage_1: 0.25
+  Opal_dragon_bolts_(e): 
+    stats:
+      other_bonus:
+        Ranged_strength: 122
+  Jade_bolts: 
+    stats:
+      other_bonus:
+        Ranged_strength: 30
+  Jade_dragon_bolts: 
+    stats:
+      other_bonus:
+        Ranged_strength: 122
+  Pearl_bolts_(e): 
+    stats:
+      other_bonus:
+        Ranged_strength: 48
+  Pearl_dragon_bolts_(e): 
+    stats:
+      other_bonus:
+        Ranged_strength: 122
+  Topaz_bolts: 
+    stats:
+      other_bonus:
+        Ranged_strength: 66
+  Topaz_dragon_bolts: 
+    stats:
+      other_bonus:
+        Ranged_strength: 122
+  Sapphire_bolts: 
+    stats:
+      other_bonus:
+        Ranged_strength: 83
+  Sapphire_dragon_bolts: 
+    stats:
+      other_bonus:
+        Ranged_strength: 122
+  Emerald_bolts_(e): 
+    stats:
+      other_bonus:
+        Ranged_strength: 85
+  Emerald_dragon_bolts_(e): 
+    stats:
+      other_bonus:
+        Ranged_strength: 122
+  Ruby_bolts_(e): 
+    stats:
+      other_bonus:
+        Ranged_strength: 103
+  Ruby_dragon_bolts_(e): 
+    stats:
+      other_bonus:
+        Ranged_strength: 122
+  Diamond_bolts_(e): 
+    stats:
+      other_bonus:
+        Ranged_strength: 105
+      special_bonuses:
+        Special_damage_1: 0.15
+  Diamond_dragon_bolts_(e): 
+    stats:
+      other_bonus:
+        Ranged_strength: 122
+  Dragonstone_bolts_(e): 
+    stats:
+      other_bonus:
+        Ranged_strength: 117
+  Dragonstone_dragon_bolts_(e): 
+    stats:
+      other_bonus:
+        Ranged_strength: 122
+  Onyx_bolts_(e): 
+    stats:
+      other_bonus:
+        Ranged_strength: 120
+      special_bonuses:
+        Special_damage_1: 0.2
+  Onyx_dragon_bolts_(e): 
+    stats:
+      other_bonus:
+        Ranged_strength: 122
+  Bone_bolts: 
+    stats:
+      other_bonus:
+        Ranged_strength: 49
+  Dragon_bolts: 
+    stats:
+      other_bonus:
+        Ranged_strength: 122
+  Amethyst_bolts: 
+    stats:
+      other_bonus:
+        Ranged_strength: 115
+  Rune_bolts: 
+    stats:
+      other_bonus:
+        Ranged_strength: 115
+  Adamant_bolts: 
+    stats:
+      other_bonus:
+        Ranged_strength: 100
+  Mithril_bolts: 
+    stats:
+      other_bonus:
+        Ranged_strength: 82
+  Steel_bolts: 
+    stats:
+      other_bonus:
+        Ranged_strength: 64
+  Iron_bolts: 
+    stats:
+      other_bonus:
+        Ranged_strength: 46
+  Bronze_bolts: 
+    stats:
+      other_bonus:
+        Ranged_strength: 10
+  Silver_bolts: 
+    stats:
+      other_bonus:
+        Ranged_strength: 36
+  Blurite_bolts: 
+    stats:
+      other_bonus:
+        Ranged_strength: 28
+  Wind_strike: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 2
+  Wind_bolt: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 9
+  Wind_blast: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 13
+  Wind_wave: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 17
+  Wind_surge: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 21
+  Water_strike: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 4
+  Water_bolt: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 10
+  Water_blast: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 14
+  Water_wave: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 18
+  Water_surge: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 22
+  Earth_strike: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 6
+  Earth_bolt: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 11
+  Earth_blast: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 15
+  Earth_wave: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 19
+  Earth_surge: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 23
+  Fire_strike: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 8
+  Fire_bolt: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 12
+  Fire_blast: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 16
+  Fire_wave: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 20
+  Fire_surge: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 24
+  Smoke_rush: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 14
+  Smoke_burst: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 18
+  Smoke_blitz: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 23
+  Smoke_barrage: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 27
+  Shadow_rush: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 15
+  Shadow_burst: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 19
+  Shadow_blitz: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 24
+  Shadow_barrage: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 28
+  Blood_rush: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 16
+  Blood_burst: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 21
+  Blood_blitz: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 25
+  Blood_barrage: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 29
+  Ice_rush: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 17
+  Ice_burst: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 22
+  Ice_blitz: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 26
+  Ice_barrage: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 30
+  Claws_of_Guthix: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 30
+  Saradomin_Strike: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 30
+  Flames_of_Zamorak: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 30
+  Magic_dart: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: mdart
+  Iban_Blast: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 25
+  Crumble_Undead: 
+    stats:
+      special_bonuses:
+        Spell_max_hit: 15
+  Vampyrium_vambraces: 
+    stats:
+      attack_bonus:
+        Magic_attack: -10
+        Ranged_attack: 14
+      defence_bonus:
+        Stab_defence: 8
+        Slash_defence: 7
+        Crush_defence: 9
+        Magic_defence: 12
+        Ranged_defence: 0
+      other_bonus:
+        Ranged_strength: 2
+  Chaotic_rapier: 
+    stats:
+      attack_bonus:
+        Stab_attack: 94
+        Slash_attack: 78
+        Crush_attack: -2
+      defence_bonus:
+        Slash_defence: 2
+        Crush_defence: 1
+      other_bonus:
+        Melee_strength: 101
+      Attack_speed: 6
+      Combat_options: 5
+  Chaotic_longsword: 
+    stats:
+      attack_bonus:
+        Stab_attack: 107
+        Slash_attack: 124
+        Crush_attack: -2
+      defence_bonus:
+        Slash_defence: 3
+        Crush_defence: 2
+      other_bonus:
+        Melee_strength: 120   
+      Attack_speed: 5
+      Combat_options: 6
+  Chaotic_maul: 
+    stats:
+      attack_bonus:
+        Stab_attack: -4
+        Slash_attack: -4
+        Crush_attack: 167
+      other_bonus:
+        Melee_strength: 155
+      Attack_speed: 4
+      Combat_options: 9
