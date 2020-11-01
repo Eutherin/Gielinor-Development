@@ -1,7 +1,7 @@
 reload_command:
     type: command
     name: reload
-    permission: behrry.development.reload
+    permission: behr.essentials.reload
     usage: /reload
     description: reloads
     aliases:

@@ -4,6 +4,7 @@ debug_command:
   debug: false
   usage: /debug (server/player)
   description: enables or disables debugging for a player or the server.
+  permission: behr.essentials.debugging
   tab complete:
     - define targets <list[server|player]>
     - if <context.args.is_empty>:
