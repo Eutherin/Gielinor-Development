@@ -1,0 +1,11 @@
+# ██ [ File-types                 ] ██
+*.old
+*.archive
+
+# ██ [ Executables                ] ██
+*.exe
+*.sh
+*.jar
+
+# ██ [ Script Directories         ] ██
+scripts/global/
