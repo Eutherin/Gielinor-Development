@@ -1,3 +1,2 @@
 configurations:
-  configurations: data/configurations.yml
-  equipment: data/items/equipment.yml
+  item_stats: data/items/equipment.yml
