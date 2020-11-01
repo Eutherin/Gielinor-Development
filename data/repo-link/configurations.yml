@@ -1,0 +1,3 @@
+configurations:
+  configurations: data/configurations.yml
+  equipment: data/items/equipment.yml
