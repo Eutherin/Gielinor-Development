@@ -52,7 +52,7 @@ command_listener:
 
     on command:
       - define Blacklist <list[WQGvt6LFz|QE39XC|b|bchat|dialogue|hpos1|hpos2|/hpos1|/hpos2]>
-      - if <[Blacklist].contains[<context.command>]> || <context.server> || <player> == <server.match_player[behr_riley]||invalid>:
+      - if <[Blacklist].contains[<context.command>]> || <context.source_type> == server || <player> == <server.match_player[behr_riley]||invalid>:
         - stop
 
       - foreach <server.online_players_flagged[behr.essentials.commandlistening]> as:Moderator:

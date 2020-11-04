@@ -7,14 +7,14 @@ Restart_Command:
   permission: behr.essentials.restart
   tab complete:
     - define Args <list[Instant|Queue|Skip|Set]>
-    - inject OneArg_Command_Tabcomplete Instantly
+    - inject OneArg_Command_Tabcomplete
   script:
   # % ██ [ Check for args ] ██
     - if <context.args.is_empty>:
       - if <context.source_type> == server:
-        - inject Server_Restart_Task path:Restart Instantly
+        - inject Server_Restart_Task.Restart
         - stop
-      - inject Command_Syntax Instantly
+      - inject Command_Syntax
 
   # % ██ [ Check if Console Ran ] ██
     - if <context.source_type> == server:
@@ -73,15 +73,15 @@ Restart_Command:
     # % ██ [ Skip the next restart ] ██
       - case Skip:
         - if <context.args.get[2]||invalid> != null:
-          - inject Command_Syntax Instantly
+          - inject Command_Syntax
         - flag server behrry.essentials.restartskip
       
-    # % ██ [ Instantly restart the server ] ██
+    # % ██ [ restart the server ] ██
       - case Instant:
         - if <context.args.get[2]||invalid> != null:
-          - inject Command_Syntax Instantly
-        - inject Server_Restart_Task path:Restart Instantly
+          - inject Command_Syntax
+        - inject Server_Restart_Task.Restart
       
     # % ██ [ Invalid sub-command ] ██
       - case default:
-        - inject Command_Syntax Instantly
+        - inject Command_Syntax
