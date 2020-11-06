@@ -31,3 +31,14 @@ load_yaml:
       - yaml id:<[yaml]> create
       - yaml id:<[yaml]> savefile:<[file_path]>
       - announce to_console "<&e>Yaml created<&6>: <&a><[yaml]>"
+
+save_yaml:
+  type: task
+  definitions: yaml
+  script:
+    - if !<yaml[server_configuration].contains[configurations.<[yaml]>]>:
+      - narrate format:colorize_red "Invalid Yaml File Configured: <[yaml]>"
+      - stop
+
+    - define file_path <yaml[server_configuration].read[configurations.<[yaml]>]>
+    - yaml id:<[yaml]> savefile:<[file_path]>

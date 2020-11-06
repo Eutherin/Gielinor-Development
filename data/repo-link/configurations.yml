@@ -1,2 +1,3 @@
 configurations:
-  item_stats: data/items/equipment.yml
+  item_stats: data/repo-link/items.yml
+  tree_repository: data/repo-link/tree_repository.yml
