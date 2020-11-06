@@ -72,13 +72,13 @@ Restart_Command:
 
     # % ██ [ Skip the next restart ] ██
       - case Skip:
-        - if <context.args.get[2]||invalid> != null:
+        - if <context.args.get[2]||invalid> != invalid:
           - inject Command_Syntax
         - flag server behrry.essentials.restartskip
       
     # % ██ [ restart the server ] ██
       - case Instant:
-        - if <context.args.get[2]||invalid> != null:
+        - if <context.args.get[2]||invalid> != invalid:
           - inject Command_Syntax
         - inject Server_Restart_Task.Restart
       

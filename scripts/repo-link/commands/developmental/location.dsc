@@ -24,12 +24,12 @@ admin_location:
       - define locations <server.flag[behr.essentials.teleport.locations].as_map>
       - define lines <list>
       - foreach <[locations]> key:name as:location:
-        - define hover "<proc[colorize].context[Click to teleport to:|green]><n><proc[colorize].context[<[name]>|yellow]><n> <proc[colorize].context[at:|green]> <proc[colorize].context[<[location].simple.before_last[,]>|yellow]>"
+        - define hover "<&a>Click to teleport to:<n><[name]><&nl> at: <&e><[location].simple.before_last[,]>"
         - define command "location teleport <[name]>"
-        - define text <proc[colorize].context[<[name]>|yellow]>
+        - define text <&3><[name]>
         - define lines <[lines].include_single[<proc[msg_cmd].context[<[hover]>|<[text]>|<[command]>]>]>
-      - define pages <[lines].sub_lists[10].parse[separated_by[<n>]]>
-      - give written_book[book=<map.with[pages].as[<[pages]>].with[title].as[locations].with[author].as[me]>]
+      - define pages <[lines].sub_lists[10].parse[separated_by[<&nl>]]>
+      - give <item[written_book].with[book=<map.with[pages].as[<[pages]>].with[title].as[locations].with[author].as[me]>]>
       - stop
 
     - if <context.args.size> != 2:

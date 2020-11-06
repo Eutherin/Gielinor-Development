@@ -5,6 +5,8 @@ Suicide_Command:
   description: Kills yourself.
   usage: /suicide
   permission: behr.essentials.suicide
+  aliases:
+    - s
   script:
   # % ██ [ Check Args ] ██
     - if !<context.args.is_empty>:
