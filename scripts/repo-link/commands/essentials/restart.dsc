@@ -67,7 +67,7 @@ Restart_Command:
           - if <[Time].in_seconds> >= 1200:
             - narrate format:Colorize_Red "Time cannot exceed 10 minutes."
             - stop
-          
+
         - run Server_Restart_Task def:<[Time]>|<[Speed]>
 
     # % ██ [ Skip the next restart ] ██
@@ -75,13 +75,13 @@ Restart_Command:
         - if <context.args.get[2]||invalid> != invalid:
           - inject Command_Syntax
         - flag server behrry.essentials.restartskip
-      
+
     # % ██ [ restart the server ] ██
       - case Instant:
         - if <context.args.get[2]||invalid> != invalid:
           - inject Command_Syntax
         - inject Server_Restart_Task.Restart
-      
+
     # % ██ [ Invalid sub-command ] ██
       - case default:
         - inject Command_Syntax

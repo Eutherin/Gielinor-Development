@@ -50,5 +50,5 @@ Server_Restart_Task:
 
       - bossbar update Restart players:<server.online_players> "title:<&4><&l>S<&c><&l>erver <&4><&l>R<&c><&l>estart<&4>: <[Clock]>" color:red progress:<[Timer]>
     - bossbar remove Restart
- 
+
     - inject Locally Restart
