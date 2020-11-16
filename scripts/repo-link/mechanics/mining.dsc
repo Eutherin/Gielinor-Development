@@ -58,10 +58,11 @@ gielinor_mining_build_ore:
   definitions: item
   debug: false
   script:
-    - define item <[item].as_item>
-    - define lore <list.include[<script[item_system_global_data].parsed_key[settings.lore.top]>]>
+    - define item clay_ball
+    - define item_lore 
+    - define item_display_name 
     - define model_number 
-    - define NewItem <[item].with[display_name=<[name]>;lore=<[lore]>;custom_model_data=<[model_number]>]>
+    - define NewItem <[item].with[display_name=<[item_display_name]>;lore=<[item_lore]>;custom_model_data=<[model_number]>]>
     - give <[NewItem]>
 
 
@@ -87,7 +88,7 @@ gielinor_mining_build_ore:
         exp_amount: 17.5
         respawn_time: 2.4
         display_name: "Copper Ore"
-    elemental_rock_ore:
+    rock_ore:
         minimum_level: 1
         success_chance: 
         exp_amount: 1
@@ -105,7 +106,7 @@ gielinor_mining_build_ore:
         exp_amount: 5
         respawn_time: 1.2
         display_name: Clay
-    rune_ore:
+    rune_essence_ore:
         minimum_level: 1
         success_chance: 
         exp_amount: 5
@@ -208,7 +209,7 @@ gielinor_mining_build_ore:
         exp_amount: 0
         respawn_time: 0
         display_name: "Lunar Ore"
-    daeyaltshard_ore:
+    daeyalt_shard_ore:
         minimum_level: 60
         success_chance: 
         exp_amount: 5
@@ -228,7 +229,7 @@ gielinor_mining_build_ore:
         mining_gloves_chance: 16
         expert_mining_gloves_chance: 17
         display_name: "Adamantite Ore"
-    softclay_ore:
+    soft_clay_ore:
         minimum_level: 70
         success_chance: 
         exp_amount: 5
