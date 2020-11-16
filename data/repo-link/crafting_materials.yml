@@ -1,22 +1,22 @@
 ores:
   template: 
-    display_name: 
-    model_number: 
-    tradeable: 
-    equipable: 
-    stackable:
-    noteable: 
-    destroyable: 
+    display_name: z
+    model_number: z
+    tradeable: z
+    equipable: z
+    stackable: z
+    noteable: z
+    destroyable: z
     examine:
     - ''
-    value:
-    alchemisable: 
-    high_alch: 
-    low_alch: 
-    weight: 
+    value: z
+    alchemisable: z
+    high_alch: z
+    low_alch: z
+    weight: z
   chocolate: 
     display_name: Chocolate Chunks
-    model_number:
+    model_number: 0
     tradeable: false
     equipable: false
     stackable: false
@@ -44,7 +44,7 @@ ores:
     weight: 2.267
   rock: 
     display_name: Rock
-    model_number: 
+    model_number: 0
     tradeable: false
     equipable: false
     stackable: false
@@ -74,7 +74,7 @@ ores:
     weight: 2.267
   clay: 
     display_name: Clay
-    model_number:
+    model_number: 0
     tradeable: true
     equipable: false
     stackable: false
@@ -89,7 +89,7 @@ ores:
     weight: 1
   rune_essence: 
     display_name: Rune Essence
-    model_number:
+    model_number: 0
     tradeable: true
     equipable: false
     stackable: false
@@ -104,7 +104,7 @@ ores:
     weight: 0.002
   pure_essence: 
     display_name: Pure Essence
-    model_number:
+    model_number: 0
     tradeable: true
     equipable: false
     stackable: false
@@ -119,7 +119,7 @@ ores:
     weight: 0.002
   limestone: 
     display_name: Limestone
-    model_number:
+    model_number: 0
     tradeable: true
     equipable: false
     stackable: false
@@ -194,7 +194,7 @@ ores:
     weight: 2.267
   ash_soda: 
     display_name: Soda Ash
-    model_number:
+    model_number: 0
     tradeable: true
     equipable: false
     stackable: false
@@ -209,7 +209,7 @@ ores:
     weight: 0.056
   ash_volcanic: 
     display_name: Volcanic Ash
-    model_number:
+    model_number: 0
     tradeable: true
     equipable: false
     stackable: true
@@ -239,7 +239,7 @@ ores:
     weight: 2.267
   pay-dirt: 
     display_name:
-    model_number:
+    model_number: 0
     tradeable: false
     equipable: false
     stackable: false
@@ -254,7 +254,7 @@ ores:
     weight: 1.814
   sandstone_1: 
     display_name: Sandstone (1kg)
-    model_number:
+    model_number: 0
     tradeable: true
     equipable: false
     stackable: false
@@ -269,7 +269,7 @@ ores:
     weight: 1
   sandstone_2: 
     display_name: Sandstone (2kg)
-    model_number:
+    model_number: 0
     tradeable: true
     equipable: false
     stackable: false
@@ -284,7 +284,7 @@ ores:
     weight: 2
   sandstone_5: 
     display_name: Sandstone (5kg)
-    model_number:
+    model_number: 0
     tradeable: true
     equipable: false
     stackable: false
@@ -299,7 +299,7 @@ ores:
     weight: 5
   sandstone_10: 
     display_name: Sandstone (10kg)
-    model_number:
+    model_number: 0
     tradeable: true
     equipable: false
     stackable: false
@@ -329,7 +329,7 @@ ores:
     weight: 2.267
   gem_opal: 
     display_name: Uncut Opal
-    model_number:
+    model_number: 0
     tradeable: true
     equipable: false
     stackable: false
@@ -344,7 +344,7 @@ ores:
     weight: 0.003
   gem_jade: 
     display_name: Uncut Jade
-    model_number:
+    model_number: 0
     tradeable: true
     equipable: false
     stackable: false
@@ -359,7 +359,7 @@ ores:
     weight: 0.003
   gem_red_topaz: 
     display_name: Uncut Red Topaz
-    model_number:
+    model_number: 0
     tradeable: true
     equipable: false
     stackable: false
@@ -374,7 +374,7 @@ ores:
     weight: 0.003
   gem_sapphire: 
     display_name: Uncut Sapphire
-    model_number:
+    model_number: 0
     tradeable: true
     equipable: false
     stackable: false
@@ -389,7 +389,7 @@ ores:
     weight: 0.003
   gem_emerald: 
     display_name: Uncut
-    model_number:
+    model_number: 0
     tradeable: true
     equipable: false
     stackable: false
@@ -404,7 +404,7 @@ ores:
     weight: 0.003
   gem_ruby: 
     display_name: Uncut
-    model_number:
+    model_number: 0
     tradeable: true
     equipable: false
     stackable: false
@@ -419,7 +419,7 @@ ores:
     weight: 0.003
   gem_diamond: 
     display_name: Uncut Diamond
-    model_number:
+    model_number: 0
     tradeable: true
     equipable: false
     stackable: false
@@ -434,7 +434,7 @@ ores:
     weight: 0.003
   sulphur: 
     display_name: Volcanic Sulphur
-    model_number:
+    model_number: 0
     tradeable: false
     equipable: false
     stackable: false
@@ -449,7 +449,7 @@ ores:
     weight: 0.056
   granite_500: 
     display_name: Granite(500g)
-    model_number:
+    model_number: 0
     tradeable: true
     equipable: false
     stackable: false
@@ -464,7 +464,7 @@ ores:
     weight: 0.5
   granite_2: 
     display_name: Granite(2kg)
-    model_number:
+    model_number: 0
     tradeable: true
     equipable: false
     stackable: false
@@ -479,7 +479,7 @@ ores:
     weight: 2
   granite_5: 
     display_name: Granite(5kg)
-    model_number:
+    model_number: 0
     tradeable: true
     equipable: false
     stackable: false
@@ -525,7 +525,7 @@ ores:
     weight: 2.267
   daeyalt_shard: 
     display_name: Daeyalt Shard
-    model_number:
+    model_number: 0
     tradeable: false
     equipable: false
     stackable: true
@@ -570,7 +570,7 @@ ores:
     weight: 2.721
   soft_clay: 
     display_name: Soft Clay
-    model_number:
+    model_number: 0
     tradeable: true
     equipable: false
     stackable: false
@@ -600,7 +600,7 @@ ores:
     weight: 2.267
   amethyst: 
     display_name: Amethyst
-    model_number:
+    model_number: 0
     tradeable: true
     equipable: false
     stackable: false
