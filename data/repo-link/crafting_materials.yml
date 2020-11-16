@@ -10,606 +10,470 @@ ores:
     examine:
     - ''
     value: z
-    alchemisable: z
+    alchemy:
+      high: z
+      low: z
     high_alch: z
     low_alch: z
     weight: z
   chocolate: 
     display_name: Chocolate Chunks
     model_number: 0
-    tradeable: false
-    equipable: false
-    stackable: false
-    noteable: false
-    destroyable: drop
     examine:
     - 'Smells chocolatey.'
-    value: 0
-    alchemisable: false
-    weight: 0
   copper: 
     display_name: Copper Ore
     model_number: 4
     tradeable: true
-    equipable: false
-    stackable: false
     noteable: true
-    destroyable: drop
     examine:
     - 'This needs refining.'
     value: 3
-    alchemisable: true
-    high_alch: 1
-    low_alch: 1
+    alchemy:
+      high: 1
+      low: 1
     weight: 2.267
   rock: 
     display_name: Rock
     model_number: 0
-    tradeable: false
-    equipable: false
-    stackable: false
     noteable: 
-    destroyable: drop
     examine:
     - 'A chunk of rock.'
     value: 1
-    alchemisable: true
-    high_alch: 0
-    low_alch: 0
+    alchemy:
+      high: 0
+      low: 0
     weight: 0.001
   tin: 
     display_name: Tin Ore
     model_number: 14
     tradeable: true
-    equipable: false
-    stackable: false
     noteable: true
-    destroyable: drop
     examine:
     - 'This needs refining.'
     value: 3
-    alchemisable: true
-    high_alch: 1
-    low_alch: 1
+    alchemy:
+      high: 1
+      low: 1
     weight: 2.267
   clay: 
     display_name: Clay
     model_number: 0
     tradeable: true
-    equipable: false
-    stackable: false
     noteable: true
-    destroyable: drop
     examine:
     - 'Some hard dry clay.'
     value: 1
-    alchemisable: true
-    high_alch: 0
-    low_alch: 0
+    alchemy:
+      high: 0
+      low: 0
     weight: 1
   rune_essence: 
     display_name: Rune Essence
     model_number: 0
     tradeable: true
-    equipable: false
-    stackable: false
     noteable: true
-    destroyable: drop
     examine:
     - 'An uncharged Rune Stone.'
     value: 4
-    alchemisable: true
-    high_alch: 2
-    low_alch: 1
+    alchemy:
+      high: 2
+      low: 1
     weight: 0.002
   pure_essence: 
     display_name: Pure Essence
     model_number: 0
     tradeable: true
-    equipable: false
-    stackable: false
     noteable: true
-    destroyable: drop
     examine:
     - 'An uncharged Rune Stone of extra capability.'
     value: 4
-    alchemisable: true
-    high_alch: 2
-    low_alch: 1
+    alchemy:
+      high: 2
+      low: 1
     weight: 0.002
   limestone: 
     display_name: Limestone
     model_number: 0
     tradeable: true
-    equipable: false
-    stackable: false
     noteable: true
-    destroyable: drop
     examine:
     - 'Some limestone.'
     value: 10
-    alchemisable: true
-    high_alch: 6
-    low_alch: 4
+    alchemy:
+      high: 6
+      low: 4
     weight: 2.267
   blurite: 
     display_name: Blurite Ore
     model_number: 2
-    tradeable: false
-    equipable: false
-    stackable: false
-    noteable: false
-    destroyable: drop
     examine:
     - 'Definitely blue.'
     value: 3
-    alchemisable: true
-    high_alch: 1
-    low_alch: 1
+    alchemy:
+      high: 1
+      low: 1
     weight: 2.267
   iron: 
     display_name: Iron Ore
     model_number: 8
     tradeable: true
-    equipable: false
-    stackable: false
     noteable: true
-    destroyable: drop
     examine:
     - 'This needs refining.'
     value: 17
-    alchemisable: true
-    high_alch: 10
-    low_alch: 6
+    alchemy:
+      high: 10
+      low: 6
     weight: 2.267
   daeyalt: 
     display_name: Daeyalt Ore
     model_number: 5
-    tradeable: false
-    equipable: false
-    stackable: false
-    noteable: false
-    destroyable: drop
     examine:
     - 'This need refining.'
     value: 100
-    alchemisable: true
-    high_alch: 60
-    low_alch: 40
+    alchemy:
+      high: 60
+      low: 40
     weight: 2.267
   silver: 
     display_name: Silver Ore
     model_number: 13
     tradeable: true
-    equipable: false
-    stackable: false
     noteable: true
-    destroyable: drop
     examine:
     - 'This needs refining.'
     value: 75
-    alchemisable: true
-    high_alch: 45
-    low_alch: 30
+    alchemy:
+      high: 45
+      low: 30
     weight: 2.267
   ash_soda: 
     display_name: Soda Ash
     model_number: 0
     tradeable: true
-    equipable: false
-    stackable: false
     noteable: true
-    destroyable: drop
     examine:
     - 'One of the ingredients for making glass.'
     value: 2
-    alchemisable: true
-    high_alch: 1
-    low_alch: 0
+    alchemy:
+      high: 1
+      low: 0
     weight: 0.056
   ash_volcanic: 
     display_name: Volcanic Ash
     model_number: 0
     tradeable: true
-    equipable: false
     stackable: true
-    noteable: false
-    destroyable: drop
     examine:
     - 'One of the ingredients for making ultra compost.'
     value: 200
-    alchemisable: true
-    high_alch: 120
-    low_alch: 80
+    alchemy:
+      high: 120
+      low: 80
     weight: 0
   coal: 
     display_name: Coal
     model_number: 3
     tradeable: true
-    equipable: false
-    stackable: false
     noteable: true
-    destroyable: drop
     examine:
     - 'Hmm a non-renewable energy source!'
     value: 45
-    alchemisable: true
-    high_alch: 27
-    low_alch: 18
+    alchemy:
+      high: 27
+      low: 18
     weight: 2.267
   pay-dirt: 
     display_name:
     model_number: 0
-    tradeable: false
-    equipable: false
-    stackable: false
-    noteable: false
-    destroyable: drop
     examine:
     - 'Prospector Percy has a machine that can wash this.'
     value: 20
-    alchemisable: true
-    high_alch: 12
-    low_alch: 8
+    alchemy:
+      high: 12
+      low: 8
     weight: 1.814
   sandstone_1: 
     display_name: Sandstone (1kg)
     model_number: 0
     tradeable: true
-    equipable: false
-    stackable: false
     noteable: true
-    destroyable: drop
     examine:
     - 'A tiny chunk of sandstone.'
     value: 1
-    alchemisable: true
-    high_alch: 0
-    low_alch: 0
+    alchemy:
+      high: 0
+      low: 0
     weight: 1
   sandstone_2: 
     display_name: Sandstone (2kg)
     model_number: 0
     tradeable: true
-    equipable: false
-    stackable: false
     noteable: true
-    destroyable: drop
     examine:
     - 'A small chunk of sandstone.'
     value: 1
-    alchemisable: true
-    high_alch: 0
-    low_alch: 0
+    alchemy:
+      high: 0
+      low: 0
     weight: 2
   sandstone_5: 
     display_name: Sandstone (5kg)
     model_number: 0
     tradeable: true
-    equipable: false
-    stackable: false
     noteable: true
-    destroyable: drop
     examine:
     - 'A medium-sized chunk of sandstone.'
     value: 1
-    alchemisable: true
-    high_alch: 0
-    low_alch: 0
+    alchemy:
+      high: 0
+      low: 0
     weight: 5
   sandstone_10: 
     display_name: Sandstone (10kg)
     model_number: 0
     tradeable: true
-    equipable: false
-    stackable: false
     noteable: true
-    destroyable: drop
     examine:
     - 'A large chunk of sandstone.'
     value: 1
-    alchemisable: true
-    high_alch: 0
-    low_alch: 0
+    alchemy:
+      high: 0
+      low: 0
     weight: 10
   gold: 
     display_name: Gold Ore
     model_number: 7
     tradeable: true
-    equipable: false
-    stackable: false
     noteable: true
-    destroyable: drop
     examine:
     - 'This needs refining.'
     value: 150
-    alchemisable: true
-    high_alch: 90
-    low_alch: 60
+    alchemy:
+      high: 90
+      low: 60
     weight: 2.267
   gem_opal: 
     display_name: Uncut Opal
     model_number: 0
     tradeable: true
-    equipable: false
-    stackable: false
     noteable: true
-    destroyable: drop
     examine:
     - 'This would be worth more cut.'
     value: 20
-    alchemisable: true
-    high_alch: 12
-    low_alch: 8
+    alchemy:
+      high: 12
+      low: 8
     weight: 0.003
   gem_jade: 
     display_name: Uncut Jade
     model_number: 0
     tradeable: true
-    equipable: false
-    stackable: false
     noteable: true
-    destroyable: drop
     examine:
     - 'This would be worth more cut.'
     value: 30
-    alchemisable: true
-    high_alch: 18
-    low_alch: 12
+    alchemy:
+      high: 18
+      low: 12
     weight: 0.003
   gem_red_topaz: 
     display_name: Uncut Red Topaz
     model_number: 0
     tradeable: true
-    equipable: false
-    stackable: false
     noteable: true
-    destroyable: drop
     examine:
     - 'This would be worth more cut.'
     value: 40
-    alchemisable: true
-    high_alch: 24
-    low_alch: 16
+    alchemy:
+      high: 24
+      low: 16
     weight: 0.003
   gem_sapphire: 
     display_name: Uncut Sapphire
     model_number: 0
     tradeable: true
-    equipable: false
-    stackable: false
     noteable: true
-    destroyable: drop
     examine:
     - 'This would be worth more cut.'
     value: 25
-    alchemisable: true
-    high_alch: 15
-    low_alch: 10
+    alchemy:
+      high: 15
+      low: 10
     weight: 0.003
   gem_emerald: 
     display_name: Uncut
     model_number: 0
     tradeable: true
-    equipable: false
-    stackable: false
     noteable: true
-    destroyable: drop
     examine:
     - 'This would be worth more cut.'
     value: 50
-    alchemisable: true
-    high_alch: 30
-    low_alch: 20
+    alchemy:
+      high: 30
+      low: 20
     weight: 0.003
   gem_ruby: 
     display_name: Uncut
     model_number: 0
     tradeable: true
-    equipable: false
-    stackable: false
     noteable: true
-    destroyable: drop
     examine:
     - 'This would be worth more cut.'
     value: 100
-    alchemisable: true
-    high_alch: 60
-    low_alch: 40
+    alchemy:
+      high: 60
+      low: 40
     weight: 0.003
   gem_diamond: 
     display_name: Uncut Diamond
     model_number: 0
     tradeable: true
-    equipable: false
-    stackable: false
     noteable: true
-    destroyable: drop
     examine:
     - 'This would be worth more cut.'
     value: 200
-    alchemisable: true
-    high_alch: 120
-    low_alch: 80
+    alchemy:
+      high: 120
+      low: 80
     weight: 0.003
   sulphur: 
     display_name: Volcanic Sulphur
     model_number: 0
-    tradeable: false
-    equipable: false
-    stackable: false
-    noteable: false
-    destroyable: drop
     examine:
     - 'Minerals from an unstable area, very rich in sulphur.'
     value: 10
-    alchemisable: true
-    high_alch: 6
-    low_alch: 4
+    alchemy:
+      high: 6
+      low: 4
     weight: 0.056
   granite_500: 
     display_name: Granite(500g)
     model_number: 0
     tradeable: true
-    equipable: false
-    stackable: false
     noteable: true
-    destroyable: drop
     examine:
     - 'A tiny chunk of granite.'
     value: 1
-    alchemisable: true
-    high_alch: 0
-    low_alch: 0
+    alchemy:
+      high: 0
+      low: 0
     weight: 0.5
   granite_2: 
     display_name: Granite(2kg)
     model_number: 0
     tradeable: true
-    equipable: false
-    stackable: false
     noteable: true
-    destroyable: drop
     examine:
     - 'A small chunk of granite.'
     value: 1
-    alchemisable: true
-    high_alch: 0
-    low_alch: 0
+    alchemy:
+      high: 0
+      low: 0
     weight: 2
   granite_5: 
     display_name: Granite(5kg)
     model_number: 0
     tradeable: true
-    equipable: false
-    stackable: false
     noteable: true
-    destroyable: drop
     examine:
     - 'A medium-sized chunk of granite.'
     value: 1
-    alchemisable: true
-    high_alch: 0
-    low_alch: 0
+    alchemy:
+      high: 0
+      low: 0
     weight: 5
   mithril: 
     display_name: Mithril ore
     model_number: 11
     tradeable: true
-    equipable: false
-    stackable: false
     noteable: true
-    destroyable: drop
     examine:
     - 'This needs refining.'
     value: 162
-    alchemisable: true
-    high_alch: 97
-    low_alch: 64
+    alchemy:
+      high: 97
+      low: 64
     weight: 1.814
   lunar: 
     display_name:
     model_number: 10
-    tradeable: false
-    equipable: false
-    stackable: false
-    noteable: false
     destroyable: true
     destroy_text: "You'll have to mine more from the Lunar Isle Mine."
     examine:
     - 'This needs refining.'
     value: 3
-    alchemisable: true
-    high_alch: 1
-    low_alch: 1
+    alchemy:
+      high: 1
+      low: 1
     weight: 2.267
   daeyalt_shard: 
     display_name: Daeyalt Shard
     model_number: 0
-    tradeable: false
-    equipable: false
     stackable: true
-    noteable: false
-    destroyable: drop
     examine:
     - 'Magical shards which can be turned into daeyalt essence.'
     value: 20
-    alchemisable: true
-    high_alch: 12
-    low_alch: 8
+    alchemy:
+      high: 12
+      low: 8
     weight: 0
   lovakite: 
     display_name: Lovakite Ore
     model_number: 9
-    tradeable: false
-    equipable: false
-    stackable: false
-    noteable: false
-    destroyable: drop
     examine:
     - 'This needs refining.'
     value: 80
-    alchemisable: true
-    high_alch: 48
-    low_alch: 32
+    alchemy:
+      high: 48
+      low: 32
     weight: 1.814
   adamantite: 
     display_name: Adamantite Ore
     model_number: 1
     tradeable: true
-    equipable: false
-    stackable: false
     noteable: true
-    destroyable: drop
     examine:
     - 'This needs refining.'
     value: 400
-    alchemisable: true
-    high_alch: 240
-    low_alch: 160
+    alchemy:
+      high: 240
+      low: 160
     weight: 2.721
   soft_clay: 
     display_name: Soft Clay
     model_number: 0
     tradeable: true
-    equipable: false
-    stackable: false
     noteable: true
-    destroyable: drop
     examine:
     - 'Clay soft enough to mould'
     value: 2
-    alchemisable: true
-    high_alch: 1
-    low_alch: 0
+    alchemy:
+      high: 1
+      low: 0
     weight: 0.907
   runite: 
     display_name: Runite Ore
     model_number: 12
     tradeable: true
-    equipable: false
-    stackable: false
     noteable: true
-    destroyable: drop
     examine:
     - 'This needs refining.'
     value: 3200
-    alchemisable: true
-    high_alch: 1920
-    low_alch: 1280
+    alchemy:
+      high: 1920
+      low: 1280
     weight: 2.267
   amethyst: 
     display_name: Amethyst
     model_number: 0
     tradeable: true
-    equipable: false
-    stackable: false
     noteable: true
-    destroyable: drop
     examine:
     - 'Maybe I can make something with this.'
     value: 3900
-    alchemisable: true
-    high_alch: 2340
-    low_alch: 1560
+    alchemy:
+      high: 2340
+      low: 1560
     weight: 1.36
