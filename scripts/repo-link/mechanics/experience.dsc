@@ -44,7 +44,7 @@ add_xp:
       - flag player gielinor.skills.<[skill]>.experience_requirement:0
     - if !<player.has_flag[gielinor.skills.<[skill]>.level]>:
       - flag player gielinor.skills.<[skill]>.level:1
-    
+
     - flag player gielinor.economy.coins:+:<[xp].round_up>
     - flag player gielinor.skills.<[skill]>.experience:+:<[xp]>
     - while <[xp]> > 0:
@@ -74,7 +74,7 @@ add_xp_nostring:
       - flag <[player]> gielinor.skills.<[skill]>.experience_requirement:0
     - if !<[player].has_flag[gielinor.skills.<[skill]>.level]>:
       - flag <[player]> gielinor.skills.<[skill]>.level:1
-      
+
     - flag player gielinor.skills.<[skill]>.experience:+:<[xp]>
     - while <[xp]> > 0:
       - define xp_req <proc[xp_calc].context[<[player].flag[gielinor.skills.<[skill]>.level]>]>
