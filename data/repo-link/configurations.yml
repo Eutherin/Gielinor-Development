@@ -1,3 +1,5 @@
 configurations:
-  item_stats: data/repo-link/items.yml
+  equipment: data/repo-link/equipment.yml
+  items: data/repo-link/items.yml
   tree_repository: data/repo-link/tree_repository.yml
+  castle_wars: data/minigames/castle_wars.yml

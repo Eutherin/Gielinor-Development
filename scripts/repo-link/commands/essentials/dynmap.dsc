@@ -8,7 +8,7 @@ Dynmap_Command:
   script:
   # % ██ [ Check Args ] ██
     - if !<context.args.is_empty>:
-      - if <player.name> != Behr_Riley:
+      - if <context.source_type> != server && !<player.has_permission[behr.essentials.dynmap.admin]>:
         - inject Command_Syntax
       - stop
 

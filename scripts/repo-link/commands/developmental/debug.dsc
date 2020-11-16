@@ -14,7 +14,7 @@ debug_command:
   script:
     - if <context.args.size> > 1:
       - inject command_syntax
-    
+
     - choose <context.args.size>:
       - case 0:
         - if <player.has_flag[behr.essentials.debugging]>:

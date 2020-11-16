@@ -9,14 +9,13 @@ Restart_Handler_BehrCraft:
         - stop
       - if <player.has_permission[behrry.moderation.restart]>:
         - inject Restart_Command
-    on system time minutely every:5:
-      - if <util.date.time.hour.mod[12]> == 1 && <util.date.time.minute> == 55:
-        - if <server.has_flag[behrry.essentials.restartskip]>:
-          - flag server behrry.essentials.restartskip:!
-          - narrate targets:<server.online_players.filter[in_group[Moderation]]> format:Colorize_yellow "Server restart queue skipped."
-          - stop
-        - announce "<&6>--<&e>Server will restart in five minutes.<&6>--"
-        - run Server_Restart_Task def:<duration[300]>|20
+    on system time 03:00:
+      - if <server.has_flag[behrry.essentials.restartskip]>:
+        - flag server behrry.essentials.restartskip:!
+        - narrate targets:<server.online_players.filter[in_group[Moderation]]> format:Colorize_yellow "Server restart queue skipped."
+        - stop
+      - announce format:colorize_yellow "Server will restart in five minutes."
+      - run Server_Restart_Task def:<duration[300]>|20
 
 Server_Restart_Task:
   type: task
@@ -51,5 +50,5 @@ Server_Restart_Task:
 
       - bossbar update Restart players:<server.online_players> "title:<&4><&l>S<&c><&l>erver <&4><&l>R<&c><&l>estart<&4>: <[Clock]>" color:red progress:<[Timer]>
     - bossbar remove Restart
- 
+
     - inject Locally Restart

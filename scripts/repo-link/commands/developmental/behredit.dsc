@@ -25,7 +25,7 @@ behredit_wand_handler:
     on player swaps items offhand:behredit_wand bukkit_priority:lowest:
       - determine passively cancelled
       - run behredit.select def:c|<player.cursor_on||<player.eye_location>>
-    
+
     on player left clicks block with:behredit_wand flagged:behr.essentials.behredit.plant_mode priority:-1:
       - determine passively cancelled
       - if <player.cursor_on.material.is_solid>:
@@ -51,15 +51,15 @@ behredit_wand_handler:
         - define index:+:17
       - else:
         - define index:-:17
-      
+
       - if <[index]> > <[max_index]>:
         - define index 1
       - else if <[index]> < 1:
         - define index <[max_index]>
-      
+
       - flag player behr.essentials.behredit.tree_plan_index:<[index]>
       - actionbar "<proc[colorize].context[<&lb><[group]><&rb>|yellow]> <proc[colorize].context[tree index set to:|green]> <proc[colorize].context[<&lb><[index]><&rb>|yellow]>"
-        
+
 
 behredit_command:
   type: command
@@ -185,7 +185,7 @@ behredit_command:
   script:
     - if <context.args.is_empty>:
       - inject command_syntax
-    
+
     - choose <context.args.first>:
       - case selection:
         - if <context.args.size> != 2:
