@@ -53,6 +53,18 @@ gielinor_mining_handler:
           - wait <[respawn_time]>s
           - equip <context.npc> head:[<[ore_node_type]>_ready]
 
+gielinor_mining_build_ore:
+  type: procedure
+  definitions: item
+  debug: false
+  script:
+    - define item <[item].as_item>
+    - define lore <list.include[<script[item_system_global_data].parsed_key[settings.lore.top]>]>
+    - define model_number 
+    - define NewItem <[item].with[display_name=<[name]>;lore=<[lore]>;custom_model_data=<[model_number]>]>
+    - give <[NewItem]>
+
+
   ore_handling_data:
 #-    template_ore:
 #-        minimum_level:
