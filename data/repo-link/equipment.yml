@@ -1,5 +1,33 @@
 items:
-  template: 
+  template:
+    material: wooden_sword
+    parent: parented_item_name
+    custom_model_data: 2147483647
+    tradeable: true
+    stackable: true
+    notable: true
+    destroyable: true
+    examine:
+    - ''
+    value:
+      coins: 2147483647
+      high_alchemy: 2147483647
+      low_alchemy: 2147483647
+    weight: 0
+    slot: helmet|cloak|necklace|ammo|1h|2h|chestplate|shield|offhand|leggings|gloves|boots|ring|spell
+    requirements:
+      skill_levels:
+        attack: 99
+        strength: 99
+        defence: 99
+        ranged: 99
+        prayer: 99
+        magic: 99
+        agility: 99
+        slayer: 99
+        mining: 99
+      quest:
+        quest_name: stage
     stats:
       attack_bonus:
         Stab_attack: 0       
@@ -24,8 +52,8 @@ items:
         Special_damage_2: 0
         Special_defence_roll: 0
         Spell_max_hit: 0
-      Attack_speed: 0
-      Combat_options: 0
+      Attack_speed: 7
+      Combat_options: 21
   None: 
     stats:
       Attack_speed: 5
@@ -151,6 +179,21 @@ items:
       Attack_speed: 4
       Combat_options: 10
   Bandos_godsword: 
+    material: wooden_sword
+    custom_model_data: 1
+    tradeable: true
+    notable: true
+    examine:
+    - 'A brutally heavy sword.'
+    value:
+      coins: 1250000
+      high_alchemy: 750000
+      low_alchemy: 500000
+    weight: 10
+    slot: 2h
+    requirements:
+      skill_level:
+        attack: 75
     stats:
       attack_bonus:
         Slash_attack: 132
@@ -1119,7 +1162,22 @@ items:
         Prayer: 2
       Attack_speed: 6
       Combat_options: 12
-  Zamorak_godsword: 
+  Zamorak_godsword:
+    material: wooden_sword
+    custom_model_data: 2
+    tradeable: true
+    notable: true
+    examine:
+    - 'A terrifying, heavy sword.'
+    value:
+      coins: 1250000
+      high_alchemy: 750000
+      low_alchemy: 500000
+    weight: 10
+    slot: 2h
+    requirements:
+      skill_level:
+        attack: 75
     stats:
       attack_bonus:
         Slash_attack: 132
