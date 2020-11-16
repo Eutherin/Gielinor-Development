@@ -6,7 +6,7 @@ item:
   type: procedure
   definitions: name|quantity
   script:
-    - if <item[<[name]>]||invalid> != invalid:
+    - if !<yaml[items].contains[items.<[name]>]>:
       - determine "stone[display_name=<&c>invalid item]"
 
     - define nbt <list>
