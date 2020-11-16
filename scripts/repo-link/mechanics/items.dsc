@@ -18,10 +18,10 @@ item:
       - define item <[item].with[custom_model_data=<[data].get[custom_model_data]>]>
 
     # % Item Display Name Property
-    - define item "<[item].with[display_name=<[name].replace[_].with[ ].to_titlecase>]>"
+    - define item "<[item].with[display_name=<&r><&f><[name].replace[_].with[ ].to_titlecase>]>"
 
     # % Item Examine Property
-    - define lore <[data].get[examine]>
+    - define lore <[data].get[examine].parse_tag[<&color[#C1F2F7]><[parse_value]>]>
 
     # % Item Weight Property
     - if <[data].contains[weight]>:
