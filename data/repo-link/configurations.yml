@@ -3,3 +3,4 @@ configurations:
   items: data/repo-link/items.yml
   tree_repository: data/repo-link/tree_repository.yml
   castle_wars: data/minigames/castle_wars.yml
+  crafting_items: data/repo-link/crafting_materials.yml
