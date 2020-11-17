@@ -30,7 +30,7 @@ gielinor_mining_handler:
       # $ ████████ [ ADD CHECK FOR MODIFIERS ] ████████
       - define mining_result <util.random.int[0].to[100]>
       - if <[mining_result].add[<[mining_level_bonus]>]> >= success_chance:
-        - give <[ore_type]>
+        - give <proc[item].context[ore_type]>
         - run add_xp def:<[exp_amount]>|mining
         # % ████████ [ Chance for gloves/etc to not despawn. ] ████████
         # $ ████████ [ ADD SYNTAX FOR PLAYER EQUIPMENT CHECK ] ████████
@@ -52,18 +52,6 @@ gielinor_mining_handler:
           - equip <context.npc> head:[<[ore_node_type]>_depleted]
           - wait <[respawn_time]>s
           - equip <context.npc> head:[<[ore_node_type]>_ready]
-
-gielinor_mining_build_ore:
-  type: procedure
-  definitions: item
-  debug: false
-  script:
-    - define item clay_ball
-    - define item_lore 
-    - define item_display_name 
-    - define model_number 
-    - define NewItem <[item].with[display_name=<[item_display_name]>;lore=<[item_lore]>;custom_model_data=<[model_number]>]>
-    - give <[NewItem]>
 
 
   ore_handling_data:
