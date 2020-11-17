@@ -30,7 +30,7 @@ gielinor_mining_handler:
       # $ ████████ [ ADD CHECK FOR MODIFIERS ] ████████
       - define mining_result <util.random.int[0].to[100]>
       - if <[mining_result].add[<[mining_level_bonus]>]> >= success_chance:
-        - give <proc[item].context[ore_type]>
+        - give <proc[item].context[<[ore_type]>]>
         - run add_xp def:<[exp_amount]>|mining
         # % ████████ [ Chance for gloves/etc to not despawn. ] ████████
         # $ ████████ [ ADD SYNTAX FOR PLAYER EQUIPMENT CHECK ] ████████
